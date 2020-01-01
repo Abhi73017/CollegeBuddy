@@ -1,32 +1,24 @@
 package com.example.collegebuddy
 
 import android.content.Intent
-import android.os.Bundle
-import androidx.annotation.NonNull
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
+import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_dashboard.*
 
-class dashboard : AppCompatActivity() {
+class contact_us : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dashboard)
-
+        setContentView(R.layout.activity_contact_us)
 
         nav_view.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.navigation_home -> {
-
+                    val intent1 = Intent(this, dashboard::class.java)
+                    startActivity(intent1)
                 }
                 R.id.navigation_contact_us -> {
 
-                    val intent1 = Intent(this, contact_us::class.java)
-                    startActivity(intent1)
                 }
                 R.id.navigation_my_account -> {
                     val intent2 = Intent(this, my_account::class.java)
@@ -39,7 +31,5 @@ class dashboard : AppCompatActivity() {
             }
             return@setOnNavigationItemSelectedListener true
         }
-
-
     }
 }

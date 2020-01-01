@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".more"></activity>
+        <activity android:name=".my_account" />
+        <activity android:name=".contact_us" />
         <activity
             android:name=".dashboard"
-            android:label="@string/title_activity_dashboard"></activity>
+            android:label="@string/title_activity_dashboard" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity">
             <intent-filter>
