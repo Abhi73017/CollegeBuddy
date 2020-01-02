@@ -7,17 +7,17 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/navigation_contact_us"
+        android:id="@+id/navigation_Contact_Us"
         android:icon="@drawable/ic_contact_mail_black_24dp"
         android:title="Contact Us" />
 
     <item
-        android:id="@+id/navigation_my_account"
+        android:id="@+id/navigation_My_account"
         android:icon="@drawable/ic_account_circle_black_24dp"
         android:title="My Account" />
 
     <item
-        android:id="@+id/navigation_more"
+        android:id="@+id/navigation_More"
         android:icon="@drawable/ic_more_horiz_black_24dp"
         android:title="More" />
 
