@@ -17,6 +17,13 @@ class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSele
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
+        var fragment:Fragment? = null
+        fragment = fragment_home()
+        val transaction = supportFragmentManager.beginTransaction()
+        transaction.replace(R.id.fragment_container, fragment)
+        transaction.commit()
+
+
         val navigation: BottomNavigationView = findViewById(R.id.nav_view)
         navigation.setOnNavigationItemSelectedListener(this)
 
