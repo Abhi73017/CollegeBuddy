@@ -10,7 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        android:background="#673AB7"
         android:fontFamily="@font/bold"
         android:gravity="center"
         android:text="My Account fragment"

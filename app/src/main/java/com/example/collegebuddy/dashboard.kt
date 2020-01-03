@@ -5,11 +5,6 @@ import android.view.MenuItem
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import androidx.navigation.findNavController
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import kotlinx.android.synthetic.main.activity_dashboard.*
 
 class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -17,8 +12,7 @@ class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSele
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        var fragment:Fragment? = null
-        fragment = fragment_home()
+        var fragment:Fragment = fragment_home()
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)
         transaction.commit()
