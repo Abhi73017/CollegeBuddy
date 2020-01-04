@@ -11,93 +11,90 @@
         android:id="@+id/btn_syllabus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="1dp"
+        android:layout_marginEnd="17dp"
         android:background="@drawable/syllabus_background"
         android:elevation="20dp"
         android:textAllCaps="false"
         app:layout_constraintBottom_toTopOf="@+id/btn_que_bank"
         app:layout_constraintEnd_toStartOf="@+id/btn_notes"
-        app:layout_constraintHorizontal_bias="0.716"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn_notes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="212dp"
+        android:layout_marginEnd="4dp"
         android:background="@drawable/notes_background"
         android:elevation="20dp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/btn_articles"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toEndOf="@+id/btn_syllabus"
+        app:layout_constraintTop_toTopOf="@+id/btn_syllabus" />
 
     <Button
         android:id="@+id/btn_que_bank"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="263dp"
         android:background="@drawable/que_bank_background"
         android:elevation="20dp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/btn_pro"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_articles"
-        app:layout_constraintHorizontal_bias="0.695"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <Button
         android:id="@+id/btn_articles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="5dp"
         android:background="@drawable/articles_background"
         android:elevation="20dp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toTopOf="@+id/btn_dev"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.99"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btn_que_bank"
+        app:layout_constraintTop_toBottomOf="@+id/btn_notes" />
 
     <Button
         android:id="@+id/btn_pro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="18dp"
         android:background="@drawable/pro_background"
         android:elevation="20dp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btn_dev"
-        app:layout_constraintHorizontal_bias="0.695"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_que_bank" />
 
     <Button
         android:id="@+id/btn_dev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="46dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="5dp"
         android:background="@drawable/dev_background"
         android:elevation="20dp"
         android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_pro"
+        app:layout_constraintTop_toBottomOf="@+id/btn_articles" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="36dp"
         android:fontFamily="@font/script"
         android:text="Your Favorites..."
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
