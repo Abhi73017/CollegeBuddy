@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/../CollegeBuddy.iml" filepath="$PROJECT_DIR$/../CollegeBuddy.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollegeBuddy-app.iml" filepath="$PROJECT_DIR$/CollegeBuddy-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Desktop-CollegeBuddy.iml" filepath="$PROJECT_DIR$/../Desktop-CollegeBuddy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desktop-CollegeBuddy-app.iml" filepath="$PROJECT_DIR$/Desktop-CollegeBuddy-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../It's me Abhi-Desktop-CollegeBuddy.iml" filepath="$PROJECT_DIR$/../It's me Abhi-Desktop-CollegeBuddy.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
     </modules>
   </component>

@@ -1,17 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize"
+    android:layout_marginTop="173dp"
+    android:background="@drawable/syllabus1_background"
     tools:context=".SyllabusFragments.NewSyllabus">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/newsyltxt"
-        android:textSize="50dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="New Syllabus" />
 
+    <Button
+        android:id="@+id/cse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/cse_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/eee"
+        app:layout_constraintHorizontal_bias="0.903"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/eee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/eee_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/mech"
+        app:layout_constraintTop_toTopOf="@+id/cse" />
+
+    <Button
+        android:id="@+id/mech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mech_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cse" />
+
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/civil_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/electrical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cse" />
+
+    <Button
+        android:id="@+id/electrical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/electrical_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toStartOf="@+id/it"
+        app:layout_constraintTop_toBottomOf="@+id/eee" />
+
+    <Button
+        android:id="@+id/it"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/it_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mech" />
+
+    <Button
+        android:id="@+id/leather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/leather_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bca"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/civil"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/bca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bca_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/mbbs"
+        app:layout_constraintTop_toBottomOf="@+id/electrical"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/mbbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mbbs_btn_back"
+        android:elevation="20dp"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/it"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,43 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/Custom"
     tools:context=".syllabus">
 
 
     <androidx.appcompat.widget.Toolbar
+
         android:id="@+id/syllabus_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorAccent"
+        android:layout_width="423dp"
+        android:layout_height="172dp"
+        android:background="@color/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-         />
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabSelectedTextColor="@color/white"
-        app:tabTextColor="@color/grey">
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabNewsyl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Syllabus" />
-
-        <com.google.android.material.tabs.TabItem
-            android:id="@+id/tabOldsyl"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Old Syllabus" />
-
-    </com.google.android.material.tabs.TabLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp" />
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewPagerSyllabus"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="119dp" />
+        android:layout_marginTop="130dp"
+        app:layout_constraintTop_toTopOf="@+id/syllabus_toolbar"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.google.android.material.tabs.TabLayout
+
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/grey"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabNewsyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Syllabus" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tabOldsyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Old Syllabus" />
+
+        </com.google.android.material.tabs.TabLayout>
+    </androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="AKU Syllabus"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/viewPagerSyllabus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="20dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back_button"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/syllabus_toolbar"
+        app:layout_constraintVertical_bias="0.457" />
 </androidx.constraintlayout.widget.ConstraintLayout>

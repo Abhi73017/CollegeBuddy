@@ -1,5 +1,6 @@
 package com.example.collegebuddy
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.collegebuddy.Adapters.SyllabusPagerAdapter
@@ -18,8 +19,9 @@ class syllabus : AppCompatActivity() {
 
         tabs.setupWithViewPager(viewPagerSyllabus)
 
-
-
+        back_btn.setOnClickListener {
+            val intent = Intent(this, dashboard::class.java)
+            startActivity(intent)
+        }
     }
-
 }
