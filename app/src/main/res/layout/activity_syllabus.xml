@@ -6,14 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".syllabus">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/syllabus_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Syllabus activity"
-        android:textColor="@color/colorPrimary"
-        android:textSize="30sp" app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="?attr/colorAccent"
+        android:minHeight="?attr/actionBarSize"
+         />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/grey">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabNewsyl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Syllabus" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabOldsyl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Old Syllabus" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPagerSyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="119dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -54,23 +54,22 @@
 
     <TextView
         android:id="@+id/needhelptxt"
-        android:layout_width="138dp"
-        android:layout_height="53dp"
+        android:layout_width="125dp"
+        android:layout_height="46dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/bold"
         android:text="Need Help?"
         android:textColor="@color/red"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintHorizontal_bias="0.881"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passInput" />
 
     <Button
         android:id="@+id/loginbtn"
-        android:layout_width="145dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="149dp"
+        android:layout_height="46dp"
         android:background="@drawable/button"
         android:fontFamily="@font/bold"
         android:text="Login"
@@ -79,7 +78,7 @@
         android:textColor="@color/white"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/needhelptxt" />
 
