@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.collegebuddy">
 
     <application
@@ -8,17 +9,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".new_syllabus_cse"></activity>
-        <activity android:name=".old_syllabus_cse" />
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".NewSyllabus.new_syllabus_cse"></activity>
+        <activity android:name=".OldSyllabus.old_syllabus_cse" />
         <activity android:name=".syllabus" />
         <activity
             android:name=".dashboard"
             android:label="@string/title_activity_dashboard" />
-        <activity android:name=".more" />
-        <activity android:name=".my_account" />
-        <activity android:name=".contact_us" />
-        <activity android:name=".login" />
+
+        <activity android:name=".LoginSignup.login" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

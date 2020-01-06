@@ -3,6 +3,7 @@ package com.example.collegebuddy
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.collegebuddy.LoginSignup.login
 import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity(){
 
@@ -14,11 +15,13 @@ class MainActivity : AppCompatActivity(){
         btnguest.setOnClickListener {
             val intent1 = Intent(this, dashboard::class.java)
             startActivity(intent1)
+            finish()
         }
 
         btnloginpage.setOnClickListener {
             val intent2 = Intent(this, login::class.java)
             startActivity(intent2)
+            
         }
 
     }

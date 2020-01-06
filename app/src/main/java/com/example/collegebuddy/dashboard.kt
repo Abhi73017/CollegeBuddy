@@ -2,9 +2,15 @@ package com.example.collegebuddy
 
 import android.os.Bundle
 import android.view.MenuItem
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.collegebuddy.DashboardFragment.fragment_contact_us
+import com.example.collegebuddy.DashboardFragment.fragment_home
+import com.example.collegebuddy.DashboardFragment.fragment_more
+import com.example.collegebuddy.DashboardFragment.fragment_my_account
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
 
 class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
 
@@ -12,7 +18,8 @@ class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSele
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        var fragment:Fragment = fragment_home()
+        var fragment:Fragment =
+            fragment_home()
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)
         transaction.commit()
@@ -35,15 +42,44 @@ class dashboard : AppCompatActivity(), BottomNavigationView.OnNavigationItemSele
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
-     var fragment : Fragment = fragment_home()
+     var fragment : Fragment =
+         fragment_home()
         when(item.itemId)
         {
-            R.id.navigation_home -> {fragment = fragment_home()}
-            R.id.navigation_Contact_Us -> {fragment = fragment_contact_us()}
-            R.id.navigation_My_account -> {fragment = fragment_my_account()}
-            R.id.navigation_More -> {fragment = fragment_more()}
+            R.id.navigation_home -> {fragment =
+                fragment_home()
+            }
+            R.id.navigation_Contact_Us -> {fragment =
+                fragment_contact_us()
+            }
+            R.id.navigation_My_account -> {fragment =
+                fragment_my_account()
+            }
+            R.id.navigation_More -> {fragment =
+                fragment_more()
+            }
 
         }
         return onFragmentLoad(fragment)
     }
-}
+
+    //Back Button Click Condition
+
+    private var back_pressed: Long = 0
+
+    override fun onBackPressed() {
+        if (back_pressed + 2000 > System.currentTimeMillis()) super.onBackPressed() else Toast.makeText(
+            baseContext,
+            "Press once again to exit!",
+            Toast.LENGTH_SHORT
+        ).show()
+        back_pressed = System.currentTimeMillis()
+    }
+
+
+
+
+
+    }  // class Ends
+
+

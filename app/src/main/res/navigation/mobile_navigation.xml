@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.collegebuddy.fragment_home"
+        android:name="com.example.collegebuddy.DashboardFragment.fragment_home"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_Contact_Us"
-        android:name="com.example.collegebuddy.fragment_contact_us"
+        android:name="com.example.collegebuddy.DashboardFragment.fragment_contact_us"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_contact_us" />
 
     <fragment
         android:id="@+id/navigation_My_account"
-        android:name="com.example.collegebuddy.fragment_my_account"
+        android:name="com.example.collegebuddy.DashboardFragment.fragment_my_account"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_my_account" />
 
     <fragment
         android:id="@+id/navigation_More"
-        android:name="com.example.collegebuddy.fragment_more"
+        android:name="com.example.collegebuddy.DashboardFragment.fragment_more"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_more" />
 </navigation>

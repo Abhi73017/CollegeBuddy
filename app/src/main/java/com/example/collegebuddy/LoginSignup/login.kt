@@ -1,10 +1,12 @@
-package com.example.collegebuddy
+package com.example.collegebuddy.LoginSignup
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import com.example.collegebuddy.R
+import com.example.collegebuddy.dashboard
 import com.google.android.gms.auth.api.Auth
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.ConnectionResult
@@ -12,7 +14,6 @@ import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
-import dmax.dialog.SpotsDialog
 import kotlinx.android.synthetic.main.activity_login.*
 
 class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
@@ -46,7 +47,8 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
         firebaseAuth!!.signInWithCredential(credential!!)
             .addOnSuccessListener { authResult ->
                 val logged_email : String? = authResult.user?.email
-                val logged_activity = Intent(this@login,dashboard::class.java)
+                val logged_activity = Intent(this@login,
+                    dashboard::class.java)
                 startActivity(logged_activity)
             }
             .addOnFailureListener {
@@ -71,7 +73,9 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
 
     private fun SignIn() {
         val intent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient)
-        startActivityForResult(intent, PERMISSION_CODE)
+        startActivityForResult(intent,
+            PERMISSION_CODE
+        )
 
     }
 
