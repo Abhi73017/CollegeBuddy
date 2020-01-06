@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".new_syllabus"></activity>
-        <activity android:name=".old_syllabus" />
+        <activity android:name=".new_syllabus_cse"></activity>
+        <activity android:name=".old_syllabus_cse" />
         <activity android:name=".syllabus" />
         <activity
             android:name=".dashboard"
