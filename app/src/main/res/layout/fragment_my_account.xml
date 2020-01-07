@@ -12,7 +12,7 @@
         android:id="@+id/userNameorUserNametxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="124dp"
+        android:layout_marginTop="120dp"
         android:alpha="0.6"
         android:fontFamily="@font/bold"
         android:text="Username or UserEmail"
@@ -20,56 +20,21 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/NotloginText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="You are Current In Guest Mode
-        Login for Access This Page"
-        android:textAlignment="center"
-        android:textFontWeight="700"
-
-        android:textSize="25dp"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/userNameorUserNametxt" />
-
-    <Button
-
-        android:id="@+id/Templogin_btn"
-        android:layout_width="350dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/buttoncurve"
-        android:elevation="20dp"
-        android:fontFamily="monospace"
-        android:text="Login"
-        android:textColor="@color/white"
-        android:textFontWeight="700"
-        android:textSize="20sp"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/NotloginText" />
 
     <Button
         android:id="@+id/change_login_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="100dp"
         android:background="@drawable/change_login_back"
         android:elevation="20dp"
         android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Templogin_btn" />
+        app:layout_constraintTop_toBottomOf="@+id/userNameorUserNametxt" />
 
     <Button
         android:id="@+id/log_out_btn"

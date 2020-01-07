@@ -3,7 +3,9 @@ package com.example.collegebuddy
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.collegebuddy.LoginSignup.login
+import com.example.collegebuddy.loginsignup.login
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity(){
 
@@ -24,6 +26,18 @@ class MainActivity : AppCompatActivity(){
             
         }
 
+    }
+
+    override fun onStart() {
+
+        // Check if user is signed in (non-null) and update UI accordingly.
+        val currentUser: FirebaseUser? = FirebaseAuth.getInstance().currentUser
+        if (currentUser != null) {
+            val intent = Intent(this@MainActivity, dashboard::class.java)
+            startActivity(intent)
+            finish()
+        }
+        super.onStart()
     }
 
 }

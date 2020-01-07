@@ -1,10 +1,10 @@
-package com.example.collegebuddy.LoginSignup
+package com.example.collegebuddy.loginsignup
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.collegebuddy.R
 import com.example.collegebuddy.dashboard
 import com.google.android.gms.auth.api.Auth
@@ -13,14 +13,17 @@ import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.activity_login.*
+
 
 class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
 
     companion object {
         private val PERMISSION_CODE = 9999
     }
+
     lateinit var mGoogleApiClient: GoogleApiClient
     lateinit var firebaseAuth: FirebaseAuth
 
@@ -28,16 +31,15 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == PERMISSION_CODE) {
             val result = Auth.GoogleSignInApi.getSignInResultFromIntent(data)
-            if (result.isSuccess){
+            if (result.isSuccess) {
                 val account = result.signInAccount
                 val idToken = account!!.idToken
                 val credential = GoogleAuthProvider.getCredential(idToken, null)
                 firebaseAuthWithGoogle(credential)
 
-            }
-            else{
+            } else {
                 Log.d("LOGIN_ERROR", "Login Unsuccessful")
-                Toast.makeText(this,"Login Unsuccessful", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Login Unsuccessful", Toast.LENGTH_SHORT).show()
 
             }
         }
@@ -46,13 +48,15 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
     private fun firebaseAuthWithGoogle(credential: AuthCredential) {
         firebaseAuth!!.signInWithCredential(credential!!)
             .addOnSuccessListener { authResult ->
-                val logged_email : String? = authResult.user?.email
-                val logged_activity = Intent(this@login,
-                    dashboard::class.java)
+                val logged_email: String? = authResult.user?.email
+                val logged_activity = Intent(
+                    this@login,
+                    dashboard::class.java
+                )
                 startActivity(logged_activity)
             }
-            .addOnFailureListener {
-                    e -> Toast.makeText(this,""+e.message, Toast.LENGTH_SHORT).show()
+            .addOnFailureListener { e ->
+                Toast.makeText(this, "" + e.message, Toast.LENGTH_SHORT).show()
 
             }
     }
@@ -73,7 +77,8 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
 
     private fun SignIn() {
         val intent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient)
-        startActivityForResult(intent,
+        startActivityForResult(
+            intent,
             PERMISSION_CODE
         )
 
@@ -91,12 +96,10 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
         mGoogleApiClient.connect()
 
 
-
-
     }
 
     override fun onConnectionFailed(p0: ConnectionResult) {
-        Toast.makeText(this,""+p0.errorMessage, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "" + p0.errorMessage, Toast.LENGTH_SHORT).show()
     }
 
 
