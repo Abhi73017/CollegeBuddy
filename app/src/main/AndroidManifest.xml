@@ -11,20 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".splash">
+        <activity android:name=".splash" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".NewSyllabus.new_syllabus_cse" />
-        <activity android:name=".OldSyllabus.old_syllabus_cse" />
+        <activity android:name=".NewSyllabus.new_syllabus_cse"  android:screenOrientation="portrait"/>
+        <activity android:name=".OldSyllabus.old_syllabus_cse"  android:screenOrientation="portrait"/>
         <activity android:name=".syllabus" />
         <activity
             android:name=".dashboard"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_dashboard" />
-        <activity android:name=".loginsignup.login" />
+        <activity android:name=".loginsignup.login"  android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

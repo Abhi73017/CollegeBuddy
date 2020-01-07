@@ -12,6 +12,7 @@ import com.example.collegebuddy.BuildConfig
 import com.example.collegebuddy.BuildConfig.VERSION_CODE
 import com.example.collegebuddy.R
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.fragment_contact_us.*
 import kotlinx.android.synthetic.main.fragment_contact_us.view.*
 import java.lang.Exception
 
@@ -50,7 +51,6 @@ class fragment_contact_us: Fragment() {
                 startActivity(Intent.createChooser(mIntent, "Choose Your Email App"))
             }
             catch (e: Exception){
-
                 Toast.makeText(getContext(), e.message, Toast.LENGTH_LONG).show()
             }
 
@@ -58,7 +58,18 @@ class fragment_contact_us: Fragment() {
 
 }
 
-view.complain_btn.setOnClickListener{view-> println("complain btn clicked")}
+        view.complain_btn.setOnClickListener {view ->
+
+            val openURL = Intent(Intent.ACTION_VIEW)
+            openURL.data = Uri.parse(getString(R.string.complainUrl))
+
+           try {
+               startActivity(openURL)
+           }catch (e:Exception) {
+               Toast.makeText(context, e.message, Toast.LENGTH_LONG).show()
+           }
+        }
+//view.complain_btn.setOnClickListener{view-> println("complain btn clicked")}
 return view
 }
 }
