@@ -14,7 +14,9 @@ import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
+import android.app.AlertDialog
 import com.google.firebase.auth.GoogleAuthProvider
+import dmax.dialog.SpotsDialog
 import kotlinx.android.synthetic.main.activity_login.*
 
 
@@ -26,6 +28,7 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
 
     lateinit var mGoogleApiClient: GoogleApiClient
     lateinit var firebaseAuth: FirebaseAuth
+    lateinit var alertdialog: AlertDialog
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
@@ -36,6 +39,7 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
                 val idToken = account!!.idToken
                 val credential = GoogleAuthProvider.getCredential(idToken, null)
                 firebaseAuthWithGoogle(credential)
+                Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
 
             } else {
                 Log.d("LOGIN_ERROR", "Login Unsuccessful")
@@ -46,18 +50,22 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
     }
 
     private fun firebaseAuthWithGoogle(credential: AuthCredential) {
+
         firebaseAuth!!.signInWithCredential(credential!!)
             .addOnSuccessListener { authResult ->
                 val logged_email: String? = authResult.user?.email
-                val logged_activity = Intent(
-                    this@login,
-                    dashboard::class.java
-                )
+                val logged_activity = Intent(this@login, dashboard::class.java)
+
+                alertdialog= SpotsDialog.Builder()
+                    .setContext(this)
+                    .setTheme(R.style.Custom1)
+                    .build()
+                    .apply {show() }
+
                 startActivity(logged_activity)
             }
             .addOnFailureListener { e ->
                 Toast.makeText(this, "" + e.message, Toast.LENGTH_SHORT).show()
-
             }
     }
 
