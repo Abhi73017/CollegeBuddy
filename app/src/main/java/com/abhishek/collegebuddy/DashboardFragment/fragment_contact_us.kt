@@ -1,4 +1,4 @@
-package com.example.collegebuddy.DashboardFragment
+package com.abhishek.collegebuddy.DashboardFragment
 
 import android.content.Intent
 import android.net.Uri
@@ -8,11 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.example.collegebuddy.BuildConfig
-import com.example.collegebuddy.BuildConfig.VERSION_CODE
-import com.example.collegebuddy.R
+import com.abhishek.collegebuddy.BuildConfig
+import com.abhishek.collegebuddy.BuildConfig.VERSION_CODE
+import com.abhishek.collegebuddy.R
 import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.fragment_contact_us.*
 import kotlinx.android.synthetic.main.fragment_contact_us.view.*
 import java.lang.Exception
 

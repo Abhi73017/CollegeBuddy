@@ -1,4 +1,4 @@
-package com.example.collegebuddy
+package com.abhishek.collegebuddy
 
 import org.junit.Test
 

@@ -1,8 +1,8 @@
-package com.example.collegebuddy.NewSyllabus
+package com.abhishek.collegebuddy.NewSyllabus
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.collegebuddy.R
+import com.abhishek.collegebuddy.R
 
 class new_syllabus_cse : AppCompatActivity() {
 

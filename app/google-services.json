@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:426682016132:android:b11e124ee38ffca5663dd1",
+        "android_client_info": {
+          "package_name": "com.abhishek.collegebuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426682016132-lbcsbohlis5lf88rs10dgagd5h8f6ole.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhishek.collegebuddy",
+            "certificate_hash": "4e1119ae58399594298e5a85e072f4f768f421c6"
+          }
+        },
+        {
+          "client_id": "426682016132-2o8gg5k55di3eu6pgcr8eb1ce30btv6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpwKTiNooUh0HYkEgg8CZAylA0szEi_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426682016132-2o8gg5k55di3eu6pgcr8eb1ce30btv6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:426682016132:android:8f9f3f2d87ec47bc663dd1",
         "android_client_info": {
           "package_name": "com.example.collegebuddy"

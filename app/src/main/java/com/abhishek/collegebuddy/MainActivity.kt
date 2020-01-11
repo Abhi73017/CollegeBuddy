@@ -1,9 +1,9 @@
-package com.example.collegebuddy
+package com.abhishek.collegebuddy
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.collegebuddy.loginsignup.login
+import com.abhishek.collegebuddy.loginsignup.login
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.activity_main.*

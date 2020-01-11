@@ -1,14 +1,14 @@
-package com.example.collegebuddy
+package com.abhishek.collegebuddy
 
 import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
-import com.example.collegebuddy.DashboardFragment.fragment_contact_us
-import com.example.collegebuddy.DashboardFragment.fragment_home
-import com.example.collegebuddy.DashboardFragment.fragment_more
-import com.example.collegebuddy.DashboardFragment.fragment_my_account
+import com.abhishek.collegebuddy.DashboardFragment.fragment_contact_us
+import com.abhishek.collegebuddy.DashboardFragment.fragment_home
+import com.abhishek.collegebuddy.DashboardFragment.fragment_more
+import com.abhishek.collegebuddy.DashboardFragment.fragment_my_account
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 

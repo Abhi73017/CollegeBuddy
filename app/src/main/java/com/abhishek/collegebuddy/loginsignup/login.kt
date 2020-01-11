@@ -1,19 +1,18 @@
-package com.example.collegebuddy.loginsignup
+package com.abhishek.collegebuddy.loginsignup
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.collegebuddy.R
-import com.example.collegebuddy.dashboard
+import com.abhishek.collegebuddy.R
+import com.abhishek.collegebuddy.dashboard
 import com.google.android.gms.auth.api.Auth
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import android.app.AlertDialog
 import com.google.firebase.auth.GoogleAuthProvider
 import dmax.dialog.SpotsDialog

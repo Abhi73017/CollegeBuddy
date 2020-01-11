@@ -1,4 +1,4 @@
-package com.example.collegebuddy
+package com.abhishek.collegebuddy
 
 import android.content.Intent
 import android.os.Bundle
