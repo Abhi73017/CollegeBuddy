@@ -3,6 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.abhishek.collegebuddy">
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"

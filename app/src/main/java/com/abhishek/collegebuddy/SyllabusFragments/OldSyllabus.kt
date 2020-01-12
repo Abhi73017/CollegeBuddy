@@ -21,7 +21,7 @@ class OldSyllabus : Fragment() {
 
         var view:View = inflater!!.inflate(R.layout.fragment_old_syllabus, container, false)
 
-        view.cse.setOnClickListener {
+        view.cse_btn_old.setOnClickListener {
             var intent = Intent(getContext(),
                 old_syllabus_cse::class.java)
             startActivity(intent)
