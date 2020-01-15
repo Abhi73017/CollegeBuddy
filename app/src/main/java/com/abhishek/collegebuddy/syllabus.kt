@@ -20,8 +20,9 @@ class syllabus : AppCompatActivity() {
         tabs.setupWithViewPager(viewPagerSyllabus)
 
         back_btn.setOnClickListener {
-            val intent = Intent(this, dashboard::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, dashboard::class.java))
+
+
         }
     }
 }

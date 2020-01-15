@@ -8,8 +8,7 @@
         android:largeScreens="true"
         android:normalScreens="true"
         android:resizeable="true"
-        android:smallScreens="true"
-        />
+        android:smallScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -19,21 +18,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.abhishek.collegebuddy.splash" android:screenOrientation="portrait">
+        <activity android:name=".NewSyllabus.FirstSem.EEE"></activity>
+        <activity android:name=".NewSyllabus.MechNew" />
+        <activity android:name=".OldSyllabus.MechOld" />
+        <activity android:name=".OldSyllabus.EeeOld" />
+        <activity android:name=".NewSyllabus.EeeNew" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.abhishek.collegebuddy.MainActivity" />
-        <activity android:name="com.abhishek.collegebuddy.NewSyllabus.new_syllabus_cse"  android:screenOrientation="portrait"/>
-        <activity android:name="com.abhishek.collegebuddy.OldSyllabus.old_syllabus_cse"  android:screenOrientation="portrait"/>
-        <activity android:name="com.abhishek.collegebuddy.syllabus" />
+        <activity android:name=".MainActivity" />
         <activity
-            android:name="com.abhishek.collegebuddy.dashboard"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_dashboard" />
-        <activity android:name="com.abhishek.collegebuddy.loginsignup.login"  android:screenOrientation="portrait"/>
+            android:name=".NewSyllabus.new_syllabus_cse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OldSyllabus.old_syllabus_cse"
+            android:screenOrientation="portrait" />
+        <activity android:name=".syllabus" />
+        <activity
+            android:name=".dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".loginsignup.login"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
