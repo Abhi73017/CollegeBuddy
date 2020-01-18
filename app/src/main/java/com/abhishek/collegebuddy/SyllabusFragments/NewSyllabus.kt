@@ -9,6 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.abhishek.collegebuddy.NewSyllabus.EeeNew
+import com.abhishek.collegebuddy.NewSyllabus.MechNew
+import com.abhishek.collegebuddy.NewSyllabus.civilnew
 
 import com.abhishek.collegebuddy.R
 import com.abhishek.collegebuddy.NewSyllabus.new_syllabus_cse
@@ -39,6 +41,24 @@ class NewSyllabus : Fragment() {
                     EeeNew::class.java
                 )
                 startActivity(intent)
+
+        }
+
+        view.mech_btn_new.setOnClickListener {
+            var intent = Intent(
+                getContext(),
+                MechNew::class.java
+            )
+            startActivity(intent)
+
+        }
+
+        view.civil_btn_new.setOnClickListener {
+            var intent = Intent(
+                getContext(),
+                civilnew::class.java
+            )
+            startActivity(intent)
 
         }
         return view

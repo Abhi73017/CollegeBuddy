@@ -18,7 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".NewSyllabus.FirstSem.EEE"></activity>
+        <activity android:name=".OldSyllabus.civilold"></activity>
+        <activity android:name=".NewSyllabus.civilnew" />
+        <activity android:name=".NewSyllabus.FirstSem.EEE_1st_new" />
         <activity android:name=".NewSyllabus.MechNew" />
         <activity android:name=".OldSyllabus.MechOld" />
         <activity android:name=".OldSyllabus.EeeOld" />

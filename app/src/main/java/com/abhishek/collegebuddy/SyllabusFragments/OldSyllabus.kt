@@ -8,6 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.abhishek.collegebuddy.OldSyllabus.EeeOld
+import com.abhishek.collegebuddy.OldSyllabus.MechOld
+import com.abhishek.collegebuddy.OldSyllabus.civilold
 import com.abhishek.collegebuddy.R
 import com.abhishek.collegebuddy.OldSyllabus.old_syllabus_cse
 import kotlinx.android.synthetic.main.fragment_old_syllabus.view.*
@@ -27,6 +30,23 @@ class OldSyllabus : Fragment() {
             startActivity(intent)
         }
 
+        view.eee_btn_old.setOnClickListener {
+            var intent = Intent(getContext(),
+                EeeOld::class.java)
+            startActivity(intent)
+        }
+
+        view.mech_btn_old.setOnClickListener {
+            var intent = Intent(getContext(),
+                MechOld::class.java)
+            startActivity(intent)
+        }
+
+        view.civil_btn_old.setOnClickListener {
+            var intent = Intent(getContext(),
+                civilold::class.java)
+            startActivity(intent)
+        }
         return view
     }
 

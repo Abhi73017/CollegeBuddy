@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.abhishek.collegebuddy.R
 
-class new_syllabus_cse : AppCompatActivity() {
+class civilnew : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cse_new)
+        setContentView(R.layout.activity_civil_new)
     }
 }

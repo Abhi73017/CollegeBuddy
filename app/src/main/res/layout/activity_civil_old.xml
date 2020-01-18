@@ -150,7 +150,7 @@
         android:layout_height="0dp"
         android:fontFamily="@font/bold"
         android:gravity="center"
-        android:text="Mech. Old Syllabus"
+        android:text="Civil Old Syllabus"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@id/guideline55"

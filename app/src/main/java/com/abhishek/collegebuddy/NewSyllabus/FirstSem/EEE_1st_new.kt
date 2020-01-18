@@ -5,13 +5,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.view.isVisible
 import com.abhishek.collegebuddy.R
-import kotlinx.android.synthetic.main.activity_eee_1stsem.*
+import kotlinx.android.synthetic.main.activity_eee_sem1_new.*
 
-class EEE : AppCompatActivity() {
+class EEE_1st_new : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_eee_1stsem)
+        setContentView(R.layout.activity_eee_sem1_new)
         showbtn.setOnClickListener {
             if (customtxt.isVisible){
                 customtxt.visibility = View.GONE
