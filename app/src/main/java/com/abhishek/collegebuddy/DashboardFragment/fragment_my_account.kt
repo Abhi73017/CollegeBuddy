@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import com.abhishek.collegebuddy.MainActivity
 import com.abhishek.collegebuddy.R
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
 import kotlinx.android.synthetic.main.fragment_my_account.view.*
 
 class fragment_my_account : Fragment() {
@@ -19,6 +20,18 @@ class fragment_my_account : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         var view:View = inflater!!.inflate(R.layout.fragment_my_account, null)
+
+        var currentuser:FirebaseUser? = FirebaseAuth.getInstance().currentUser
+        if(currentuser == null){
+            view.userNameorUserNametxt.setText("Hello Guest User !!")
+        }else{
+
+            // Get Logged User Email
+            var User:FirebaseUser? = FirebaseAuth.getInstance().currentUser
+            val userEmail:String = User?.email.toString()
+            view.userNameorUserNametxt.setText("Hey !! $userEmail")
+
+        }
 
         view.log_out_btn.setOnClickListener {
             FirebaseAuth.getInstance().signOut()

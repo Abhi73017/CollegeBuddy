@@ -53,6 +53,10 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
         firebaseAuth!!.signInWithCredential(credential!!)
             .addOnSuccessListener { authResult ->
                 val logged_email: String? = authResult.user?.email
+
+                // added Toast For Login info
+                Toast.makeText(this, "logged: $logged_email", Toast.LENGTH_SHORT).show()
+
                 val logged_activity = Intent(this@login, dashboard::class.java)
 
                 alertdialog= SpotsDialog.Builder()
