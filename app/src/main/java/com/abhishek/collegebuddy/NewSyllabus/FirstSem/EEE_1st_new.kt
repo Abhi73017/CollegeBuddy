@@ -13,20 +13,23 @@ class EEE_1st_new : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_eee_sem1_new)
         showbtn.setOnClickListener {
-            if (customtxt.isVisible){
-                customtxt.visibility = View.GONE
+            if (btn1layout.isVisible){
+                btn1layout.visibility = View.GONE
+
             }
             else{
-                customtxt.visibility = View.VISIBLE
+                btn1layout.visibility = View.VISIBLE
+
 
             }
         }
+
         showbtn2.setOnClickListener {
-            if (customtxt2.isVisible){
-                customtxt2.visibility = View.GONE
+            if (btn2layout.isVisible){
+                btn2layout.visibility = View.GONE
             }
             else{
-                customtxt2.visibility = View.VISIBLE
+                btn2layout.visibility = View.VISIBLE
 
             }
         }
