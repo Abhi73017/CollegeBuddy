@@ -27,8 +27,6 @@ class fragment_contact_us: Fragment() {
         view.call_us_btn.setOnClickListener { view ->
 
             Snackbar.make(view, "Currently Unavalible", Snackbar.LENGTH_LONG).show()
-//            val intent = Intent (getActivity(), syllabus::class.java)
-//            getActivity()?.startActivity(intent)
         }
 
         view.mail_us_btn.setOnClickListener { view ->

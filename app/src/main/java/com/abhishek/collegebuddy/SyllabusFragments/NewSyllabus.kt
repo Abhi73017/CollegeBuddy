@@ -14,7 +14,9 @@ import com.abhishek.collegebuddy.NewSyllabus.civilnew
 
 import com.abhishek.collegebuddy.R
 import com.abhishek.collegebuddy.NewSyllabus.new_syllabus_cse
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_new_syllabus.view.*
+import kotlinx.android.synthetic.main.fragment_old_syllabus.view.*
 
 
 class NewSyllabus : Fragment() {
@@ -26,6 +28,31 @@ class NewSyllabus : Fragment() {
     ): View? {
 
         var view: View = inflater!!.inflate(R.layout.fragment_new_syllabus, container, false)
+
+        view.Electrical_btn_new.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.it_btn_new.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.leather_btn_new.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.bca_btn_new.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.mbbs_btn_new.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
 
         view.cse_btn_new.setOnClickListener {
             var intent = Intent(
