@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Mathematics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn1layout"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Biology"
                 android:textColor="@color/white" />
 
 
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Basic electronics Engg."
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn3layout"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Engineering mechanics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn4layout"
@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Thermodynamics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn5layout"
@@ -238,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Machine Drawing"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn6layout"
@@ -280,7 +280,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Internship"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn7layout"
@@ -314,133 +314,7 @@
 
 
             </LinearLayout>
-            <!--            Button 8-->
 
-            <Button
-                android:id="@+id/showbtn8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn8layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn8txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn8txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-
-            <!--            Button 9-->
-
-            <Button
-                android:id="@+id/showbtn9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn9layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn9txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn9txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-
-            <!--            Button 10-->
-            <Button
-                android:id="@+id/showbtn10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn10layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn10txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn10txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
         </LinearLayout>
 
 

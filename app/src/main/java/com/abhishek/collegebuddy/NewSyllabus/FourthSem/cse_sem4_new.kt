@@ -93,37 +93,5 @@ class cse_sem4_new : AppCompatActivity() {
 
             }
         }
-
-//        Button 8
-        showbtn8.setOnClickListener {
-            if (btn8layout.isVisible){
-                btn8layout.visibility = View.GONE
-            }
-            else{
-                btn8layout.visibility = View.VISIBLE
-
-            }
-        }
-//        Button9
-        showbtn9.setOnClickListener {
-            if (btn9layout.isVisible){
-                btn9layout.visibility = View.GONE
-            }
-            else{
-                btn9layout.visibility = View.VISIBLE
-
-            }
-        }
-//        Button 10
-
-        showbtn10.setOnClickListener {
-            if (btn10layout.isVisible){
-                btn10layout.visibility = View.GONE
-            }
-            else{
-                btn10layout.visibility = View.VISIBLE
-
-            }
-        }
     }
 }

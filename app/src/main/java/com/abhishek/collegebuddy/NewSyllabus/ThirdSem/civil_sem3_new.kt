@@ -114,16 +114,5 @@ class civil_sem3_new : AppCompatActivity() {
 
             }
         }
-//        Button 10
-
-        showbtn10.setOnClickListener {
-            if (btn10layout.isVisible){
-                btn10layout.visibility = View.GONE
-            }
-            else{
-                btn10layout.visibility = View.VISIBLE
-
-            }
-        }
     }
 }
