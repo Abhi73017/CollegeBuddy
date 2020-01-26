@@ -47,7 +47,7 @@ class EEE_1st_new : AppCompatActivity() {
         }
 
 //        Button4
-        showbtn2.setOnClickListener {
+        showbtn4.setOnClickListener {
             if (btn4layout.isVisible){
                 btn4layout.visibility = View.GONE
             }
@@ -82,7 +82,7 @@ class EEE_1st_new : AppCompatActivity() {
 
 //        Button 7
 
-        showbtn2.setOnClickListener {
+        showbtn7.setOnClickListener {
             if (btn7layout.isVisible){
                 btn7layout.visibility = View.GONE
             }
@@ -93,7 +93,7 @@ class EEE_1st_new : AppCompatActivity() {
         }
 
 //        Button 8
-        showbtn2.setOnClickListener {
+        showbtn8.setOnClickListener {
             if (btn8layout.isVisible){
                 btn8layout.visibility = View.GONE
             }

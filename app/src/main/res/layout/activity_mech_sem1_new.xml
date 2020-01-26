@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Engg. Graphics and Design"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn1layout"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Physics"
                 android:textColor="@color/white" />
 
 
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Mathematics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn3layout"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Basic Electrical Engg."
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn4layout"
@@ -187,260 +187,6 @@
 
             </LinearLayout>
 
-
-            <!--            Button5-->
-
-            <Button
-                android:id="@+id/showbtn5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn5layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn5txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn5txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-
-            <!--            Button6-->
-            <Button
-                android:id="@+id/showbtn6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn6layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn6txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn6txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-            <!--            Button 7 -->
-
-            <Button
-                android:id="@+id/showbtn7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn7layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn7txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn7txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-            <!--            Button 8-->
-
-            <Button
-                android:id="@+id/showbtn8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn8layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn8txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn8txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-
-            <!--            Button 9-->
-
-            <Button
-                android:id="@+id/showbtn9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn9layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn9txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn9txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
-
-            <!--            Button 10-->
-            <Button
-                android:id="@+id/showbtn10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
-                android:textColor="@color/white" />
-            <LinearLayout
-                android:id="@+id/btn10layout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:visibility="gone">
-                <TextView
-                    android:id="@+id/btn10txt1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-                <TextView
-                    android:id="@+id/btn10txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
-                    android:textFontWeight="700"
-                    android:textSize="20sp"
-                    android:visibility="visible"
-                    app:layout_constraintStart_toStartOf="parent" />
-
-
-            </LinearLayout>
         </LinearLayout>
 
 

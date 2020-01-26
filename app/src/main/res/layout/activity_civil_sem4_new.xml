@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Mechnical Engineering"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn1layout"
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Engineering Geology"
                 android:textColor="@color/white" />
 
 
@@ -109,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Disaster Preparedness and Planning"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn3layout"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Introduction to Fluid Mechanics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn4layout"
@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Introduction to Solid Mechanics"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn5layout"
@@ -238,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Structural Analysis"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn6layout"
@@ -280,7 +280,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Materials, Testing and Evaluation"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn7layout"
@@ -322,7 +322,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Civil Engg. - Societal and Global Impact"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn8layout"
@@ -365,7 +365,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Elective-I (Humanities) MOOC"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn9layout"
@@ -407,7 +407,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
-                android:text="Show/Hide"
+                android:text="Management I (Organizational Behaviour)"
                 android:textColor="@color/white" />
             <LinearLayout
                 android:id="@+id/btn10layout"
