@@ -36,8 +36,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
+                    android:text="Credits : 3"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
@@ -47,10 +48,312 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="TRADITIONAL ENGINEERING GRAPHICS:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="PRINCIPLES OF ENGINEERING GRAPHICS; ORTHOGRAPHIC PROJECTION; DESCRIPTIVE
+GEOMETRY; DRAWING PRINCIPLES; ISOMETRIC PROJECTION; SURFACE DEVELOPMENT;
+PERSPECTIVE; READING A DRAWING; SECTIONAL VIEWS; DIMENSIONING and TOLERANCES;
+TRUE LENGTH, ANGLE; INTERSECTION, SHORTEST DISTANCE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="COMPUTER GRAPHICS:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="ENGINEERING GRAPHICS SOFTWARE; -SPATIAL TRANSFORMATIONS; ORTHOGRAPHIC
+PROJECTIONS; MODEL VIEWING; CO-ORDINATE SYSTEMS; MULTI-VIEW PROJECTION;
+EXPLODED ASSEMBLY; MODEL VIEWING; ANIMATION; SPATIAL MANIPULATION; SURFACE
+MODELLING; SOLID MODELLING, INTRODUCTION TO BUILDING INFORMATION MODELLING
+(BIM)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 1: INTRODUCTION TO ENGINEERING DRAWING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="PRINCIPLES OF ENGINEERING GRAPHICS AND THEIR SIGNIFICANCE, USAGE OF
+DRAWING INSTRUMENTS, LETTERING, CONIC SECTIONS INCLUDING THE RECTANGULAR
+HYPERBOLA (GENERAL METHOD ONLY); CYCLOID, EPICYCLOID, HYPOCYCLOID AND INVOLUTE;
+SCALES – PLAIN, DIAGONAL AND VERNIER SCALES"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 2: ORTHOGRAPHIC PROJECTIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="PRINCIPLES OF ORTHOGRAPHIC PROJECTIONS-CONVENTIONS -PROJECTIONS OF POINTS
+AND LINES INCLINED TO BOTH PLANES; PROJECTIONS OF PLANES INCLINED PLANES -
+AUXILIARY PLANES"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 3: PROJECTIONS OF REGULAR SOLIDS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="THOSE INCLINED TO BOTH THE PLANES- AUXILIARY VIEWS; DRAW SIMPLE ANNOTATION,
+DIMENSIONING AND SCALE. FLOOR PLANS THAT INCLUDE: WINDOWS, DOORS, AND FIXTURES
+SUCH AS WC, BATH, SINK, SHOWER, ETC."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4: SECTIONS AND SECTIONAL VIEWS OF RIGHT ANGULAR SOLIDS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="COVERING, PRISM, CYLINDER, PYRAMID, CONE – AUXILIARY VIEWS; DEVELOPMENT
+OF SURFACES OF RIGHT REGULAR SOLIDS- PRISM, PYRAMID, CYLINDER AND CONE; DRAW
+THE SECTIONAL ORTHOGRAPHIC VIEWS OF GEOMETRICAL SOLIDS, OBJECTS FROM INDUSTRY
+AND DWELLINGS (FOUNDATION TO SLAB ONLY)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 5: ISOMETRIC PROJECTIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="PRINCIPLES OF ISOMETRIC PROJECTION – ISOMETRIC SCALE, ISOMETRIC VIEWS,
+CONVENTIONS; ISOMETRIC VIEWS OF LINES, PLANES, SIMPLE AND COMPOUND SOLIDS;
+CONVERSION OF ISOMETRIC VIEWS TO ORTHOGRAPHIC VIEWS AND VICE-VERSA, CONVENTIONS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 6: OVERVIEW OF COMPUTER GRAPHICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="LISTING THE COMPUTER TECHNOLOGIES THAT IMPACT ON GRAPHICAL COMMUNICATION,
+DEMONSTRATING KNOWLEDGE OF THE THEORY OF CAD SOFTWARE [SUCH AS: THE MENU SYSTEM,
+TOOLBARS (STANDARD, OBJECT PROPERTIES, DRAW, MODIFY AND DIMENSION), DRAWING
+AREA (BACKGROUND, CROSSHAIRS, COORDINATE SYSTEM), DIALOG BOXES AND WINDOWS,
+SHORTCUT MENUS (BUTTON BARS), THE COMMAND LINE (WHERE APPLICABLE), THE STATUS
+BAR, DIFFERENT METHODS OF ZOOM AS USED IN CAD, SELECT AND ERASE OBJECTS.;
+ISOMETRIC VIEWS OF LINES, PLANES, SIMPLE AND COMPOUND SOLIDS]"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 7: CUSTOMISATION AND CAD DRAWING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="CONSISTING OF SET UP OF THE DRAWING PAGE AND THE PRINTER, INCLUDING SCALE
+SETTINGS, SETTING UP OF UNITS AND DRAWING LIMITS; ISO AND ANSI STANDARDS FOR
+COORDINATE DIMENSIONING AND TOLERANCING; ORTHOGRAPHIC CONSTRAINTS, SNAP TO
+OBJECTS MANUALLY AND AUTOMATICALLY; PRODUCING DRAWINGS BY USING VARIOUS
+COORDINATE INPUT ENTRY METHODS TO DRAW STRAIGHT LINES, APPLYING VARIOUS WAYS OF
+DRAWING CIRCLES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 8: ANNOTATIONS, LAYERING AND OTHER FUNCTIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="COVERING APPLYING DIMENSIONS TO OBJECTS, APPLYING ANNOTATIONS TO
+DRAWINGS; SETTING UP AND USE OF LAYERS, LAYERS TO CREATE DRAWINGS, CREATE, EDIT
+AND USE CUSTOMIZED LAYERS; CHANGING LINE LENGTHS THROUGH MODIFYING EXISTING
+LINES (EXTEND/LENGTHEN); PRINTING DOCUMENTS TO PAPER USING THE PRINT COMMAND;
+ORTHOGRAPHIC PROJECTION TECHNIQUES; DRAWING SECTIONAL VIEWS OF COMPOSITE RIGHT
+REGULAR GEOMETRIC SOLIDS AND PROJECT THE TRUE SHAPE OF THE SECTIONED SURFACE;
+DRAWING ANNOTATION, COMPUTER-AIDED DESIGN (CAD) SOFTWARE MODELING OF PARTS AND
+ASSEMBLIES. PARAMETRIC AND NON-PARAMETRIC SOLID, SURFACE, AND WIREFRAME MODELS.
+PART EDITING AND TWO-DIMENSIONAL DOCUMENTATION OF MODELS. PLANAR PROJECTION
+THEORY, INCLUDING SKETCHING OF PERSPECTIVE, ISOMETRIC, MULTIVIEW, AUXILIARY,
+AND SECTION VIEWS. SPATIAL VISUALIZATION EXERCISES. DIMENSIONING GUIDELINES,
+TOLERANCING TECHNIQUES; DIMENSIONING AND SCALE MULTI VIEWS OF DWELLING."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 9: DEMONSTRATION OF A SIMPLE TEAM DESIGN PROJECT THAT ILLUSTRATES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="GEOMETRY AND TOPOLOGY OF ENGINEERED COMPONENTS: CREATION OF ENGINEERING
+MODELS AND THEIR PRESENTATION IN STANDARD 2D BLUEPRINT FORM AND AS 3D WIREFRAME
+AND SHADED SOLIDS; MESHED TOPOLOGIES FOR ENGINEERING ANALYSIS AND TOOLPATH
+GENERATION FOR COMPONENT MANUFACTURE; GEOMETRIC DIMENSIONING AND
+TOLERANCING; USE OF SOLID-MODELING SOFTWARE FOR CREATING ASSOCIATIVE MODELS AT
+THE COMPONENT AND ASSEMBLY LEVELS. FLOOR PLANS THAT INCLUDE: WINDOWS, DOORS,
+AND FIXTURES SUCH AS WC, BATH, SINK, SHOWER, ETC. APPLYING COLOUR CODING
+ACCORDING TO BUILDING DRAWING PRACTICE; DRAWING SECTIONAL ELEVATION SHOWING
+FOUNDATION TO CEILING; INTRODUCTION TO BUILDING INFORMATION MODELLING (BIM)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
@@ -387,6 +690,7 @@ AND CHARACTERIZATION TECHNIQUES. HETEROJUNCTIONS AND ASSOCIATED BAND-DIAGRAMS"
             <!--            Button 3-->
 
 
+
             <Button
                 android:id="@+id/showbtn3"
                 android:layout_width="match_parent"
@@ -406,11 +710,12 @@ AND CHARACTERIZATION TECHNIQUES. HETEROJUNCTIONS AND ASSOCIATED BAND-DIAGRAMS"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
+                    android:text="Credits : 5"
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
@@ -418,13 +723,164 @@ AND CHARACTERIZATION TECHNIQUES. HETEROJUNCTIONS AND ASSOCIATED BAND-DIAGRAMS"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: DC CIRCUITS"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
-
+                <TextView
+                    android:id="@+id/btn3txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "ELECTRICAL CIRCUIT ELEMENTS (R, L AND C), VOLTAGE AND CURRENT SOURCES,
+KIRCHHOFF CURRENT AND VOLTAGE LAWS, ANALYSIS OF SIMPLE CIRCUITS WITH DC
+EXCITATION. STAR-DELTA CONVERSION, NETWORK THEOREMS (SUPERPOSITION, THEVENIN,
+NORTON AND MAXIMUM POWER TRANSFER THEOREMS). TIME-DOMAIN ANALYSIS OF FIRSTORDER
+RL AND RC CIRCUITS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: AC CIRCUITS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "REPRESENTATION OF SINUSOIDAL WAVEFORMS, PEAK, RMS AND AVERAGE VALUES (FORM
+FACTOR AND PEAK FACTOR), IMPEDANCE OF SERIES AND PARALLEL CIRCUIT, PHASOR
+REPRESENTATION, REAL POWER, REACTIVE POWER, APPARENT POWER, POWER FACTOR, POWER
+TRIANGLE. ANALYSIS OF SINGLE-PHASE AC CIRCUITS CONSISTING OF R, L, C, RL, RC,
+RLC COMBINATIONS (SERIES AND PARALLEL), RESONANCE. THREE-PHASE BALANCED
+CIRCUITS, VOLTAGE AND CURRENT RELATIONS IN STAR AND DELTA CONNECTIONS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: MAGNETIC CIRCUITS:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "INTRODUCTION, SERIES AND PARALLEL MAGNETIC CIRCUITS, ANALYSIS OF SERIES
+AND PARALLEL MAGNETIC CIRCUITS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: TRANSFORMERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "MAGNETIC MATERIALS, BH CHARACTERISTICS, IDEAL AND PRACTICAL TRANSFORMER,
+EMF EQUATION, EQUIVALENT CIRCUIT, LOSSES IN TRANSFORMERS, REGULATION AND
+EFFICIENCY. AUTO-TRANSFORMER AND THREE-PHASE TRANSFORMER CONNECTIONS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: ELECTRICAL MACHINES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CONSTRUCTION, WORKING, TORQUE-SPEED CHARACTERISTIC AND SPEED CONTROL OF
+                SEPARATELY EXCITED DC MOTOR. GENERATION OF ROTATING MAGNETIC FIELDS,
+                CONSTRUCTION AND WORKING OF A THREE-PHASE INDUCTION MOTOR, SIGNIFICANCE OF
+                TORQUE-SLIP CHARACTERISTIC. LOSS COMPONENTS AND EFFICIENCY, STARTING AND SPEED
+                CONTROL OF INDUCTION MOTOR. CONSTRUCTION AND WORKING OF SYNCHRONOUS GENERATORS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 6: ELECTRICAL INSTALLATIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "COMPONENTS OF LT SWITCHGEAR: SWITCH FUSE UNIT (SFU), MCB, ELCB, MCCB,
+TYPES OF WIRES AND CABLES, EARTHING. TYPES OF BATTERIES, IMPORTANT
+CHARACTERISTICS FOR BATTERIES. ELEMENTARY CALCULATIONS FOR ENERGY CONSUMPTION,
+POWER FACTOR IMPROVEMENT AND BATTERY BACKUP."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
             </LinearLayout>
 

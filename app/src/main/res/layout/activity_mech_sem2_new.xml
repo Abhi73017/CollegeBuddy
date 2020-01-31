@@ -36,9 +36,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
+                    android:text="Credits : 5"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -47,10 +48,260 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="MODULE 1: INTRODUCTION TO PROGRAMMING"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="INTRODUCTION TO COMPONENTS OF A COMPUTER SYSTEM (DISKS, MEMORY, PROCESSOR,
+WHERE A PROGRAM IS STORED AND EXECUTED, OPERATING SYSTEM, COMPILERS ETC). IDEA
+OF ALGORITHM: STEPS TO SOLVE LOGICAL AND NUMERICAL PROBLEMS. REPRESENTATION OF
+ALGORITHM: FLOWCHART/PSEUDO CODE WITH EXAMPLES. FROM ALGORITHMS TO PROGRAMS;
+SOURCE CODE, VARIABLES (WITH DATA TYPES) VARIABLES AND MEMORY LOCATIONS, TYPE
+CASTING/TYPE CONVERSION, RUN TIME ENVIRONMENT (STATIC, DYNAMIC LOCATION),
+STORAGE CLASSES (AUTO, REGISTER, STATIC, EXTERN), SYNTAX AND LOGICAL ERRORS IN
+COMPILATION, OBJECT AND EXECUTABLE CODE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 2: OPERATORS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="ARITHMETIC EXPRESSIONS/ARITHMETIC OPERATORS/RELATIONAL OPERATORS/LOGICAL
+OPERATORS/BITWISE OPERATORS AND PRECEDENCE"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 3: CONDITIONAL BRANCHING AND LOOPS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="WRITING AND EVALUATION OF CONDITIONALS AND CONSEQUENT BRANCHING,
+ITERATION AND LOOPS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4: ARRAYS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="ARRAY DECLARATION AND INITIALIZATION, BOUND CHECKING ARRAYS (1-D, 2-D),
+CHARACTER ARRAYS AND STRINGS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 5: BASIC ALGORITHMS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="SEARCHING (LINEAR SEARCH, BINARY SEARCH ETC.), BASIC SORTING ALGORITHMS
+(BUBBLE, INSERTION AND SELECTION), FINDING ROOTS OF EQUATIONS, NOTION OF ORDER
+OF COMPLEXITY THROUGH EXAMPLE PROGRAMS (NO FORMAL DEFINITION REQUIRED)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 6: FUNCTION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="INTRODUCTION AND WRITING FUNCTIONS, SCOPE OF VARIABLES FUNCTIONS (INCLUDING
+USING BUILT IN LIBRARIES), PARAMETER PASSING IN FUNCTIONS, CALL BY VALUE,
+PASSING ARRAYS TO FUNCTIONS: IDEA OF CALL BY REFERENCE"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 7: RECURSION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="RECURSION, AS A DIFFERENT WAY OF SOLVING PROBLEMS. EXAMPLE PROGRAMS, SUCH
+AS FINDING FACTORIAL, FIBONACCI SERIES, REVERSE A STRING USING RECURSION, AND
+GCD OF TWO NUMBERS, ACKERMAN FUNCTION ETC. QUICK SORT OR MERGE SORT."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 8: STRUCTURE/UNION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="STRUCTURES, ACCESSING STRUCTURE ELEMENTS, WAY OF STORAGE OF STRUCTURE
+ELEMENT, DEFINING STRUCTURES AND ARRAY OF STRUCTURES, BASIC DEFINITION OF UNION,
+COMPARISON B/W STRUCTURE AND UNION WITH EXAMPLE"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 9: POINTERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="IDEA OF POINTERS, DEFINING POINTERS, USE OF POINTERS IN SELF-REFERENTIAL
+STRUCTURES, NOTION OF LINKED LIST (NO IMPLEMENTATION), POINTER TO POINTER,
+POINTER TO ARRAY, POINTER TO STRINGS, ARRAY OF POINTER, POINTER TO FUNCTION,
+POINTER TO STRUCTURE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 10: FILE HANDLING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="(ONLY IF TIME IS AVAILABLE, OTHERWISE SHOULD BE DONE AS PART OF THE LAB)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
@@ -58,9 +309,9 @@
 
             <Button
                 android:id="@+id/showbtn2"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:background="@drawable/buttoncurve"
                 android:text="Chemistry"
                 android:textColor="@color/white" />
@@ -77,9 +328,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
+                    android:text="Credits : 5.5"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -89,19 +341,204 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: ATOMIC AND MOLECULAR STRUCTURE"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "FAILURE OF CLASSICAL NEWTONIAN AND MAXWELL WAVE MECHANICS TO EXPLAIN
+PROPERTIES OF PARTICLES AT ATOMIC AND SUB-ATOMIC LEVEL; ELECTROMAGNETIC
+RADIATION, DUAL NATURE OF ELECTRON AND ELECTROMAGNETIC RADIATION, PLANK’S THEORY,
+PHOTOELECTRIC EFFECT AND HEISENBERG UNCERTAINTY PRINCIPLE. FAILURE OF EARLIER
+THEORIES TO EXPLAIN CERTAIN PROPERTIES OF MOLECULES LIKE PARAMAGNETIC PROPERTIES.
+PRINCIPLES FOR COMBINATION OF ATOMIC ORBITALS TO FORM MOLECULAR ORBITALS.
+FORMATION OF HOMO AND HETERO DIATOMIC MOLECULES AND PLOTS OF ENERGY LEVEL
+DIAGRAM OF MOLECULAR ORBITALS. COORDINATION NUMBERS AND GEOMETRIES, ISOMERISM
+IN TRANSITIONAL METAL COMPOUNDS, CRYSTAL FIELD THEORY AND THE ENERGY LEVEL
+DIAGRAMS FOR TRANSITION METAL IONS AND THEIR MAGNETIC PROPERTIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: SPECTROSCOPIC TECHNIQUES AND APPLICATIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "PRINCIPLES OF VIBRATIONAL AND ROTATIONAL SPECTROSCOPY AND SELECTION RULES
+FOR APPLICATION IN DIATOMIC MOLECULES. ELEMENTARY IDEA OF ELECTRONIC
+SPECTROSCOPY. UV-VIS SPECTROSCOPY WITH RELATED RULES AND ITS APPLICATIONS.
+FLUORESCENCE AND ITS APPLICATIONS IN MEDICINE. BASIC PRINCIPLE OF NUCLEAR
+MAGNETIC RESONANCE AND ITS APPLICATION. BASICS OF MAGNETIC RESONANCE IMAGING."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: INTERMOLECULAR FORCES AND PROPERTIES OF GASES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "IONIC, DIPOLAR AND VAN DER WAALS INTERACTIONS. EQUATIONS OF STATE OF IDEAL
+AND REAL GASES, DEVIATION FROM IDEAL BEHAVIOUR. VANDER WAAL GAS EQUATION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: USE OF FREE ENERGY IN CHEMICAL EQUILIBRIA AND WATER CHEMISTRY"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "THERMODYNAMIC FUNCTIONS: ENERGY, ENTHALPY ENTROPY AND FREE ENERGY.
+EQUATIONS TO INTERRELATE THERMODYNAMIC PROPERTIES. FREE ENERGY, EMF. AND CELL
+POTENTIALS, THE NERNST EQUATION AND APPLICATIONS. CORROSION. USE OF FREE ENERGY
+CONSIDERATIONS IN METALLURGY THROUGH ELLINGHAM DIAGRAMS. SOLUBILITY EQUILIBRIA.
+WATER CHEMISTRY, HARD AND SOFT WATER. PARAMETERS OF QUALITY OF WATER TO
+BE USED IN DIFFERENT INDUSTRIES AS FOR DRINKING WATER. CALCULATION OF HARDNESS
+OF WATER IN ALL UNITS. ESTIMATION OF HARDNESS USING EDTA AND ALKALINITY METHOD.
+REMOVAL OF HARDNESS BY SODA LIME AND ION EXCHANGE METHOD INCLUDING ZEOLITE
+METHOD"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: PERIODIC PROPERTIES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "EFFECTIVE NUCLEAR CHARGE, PENETRATION OF ORBITALS, VARIATIONS OF S, P, D
+AND F ORBITAL ENERGIES OF ATOMS IN THE PERIODIC TABLE, ELECTRONIC CONFIGURATIONS,
+ATOMIC AND IONIC SIZES, IONIZATION ENERGIES, ELECTRON AFFINITY AND ELECTRONEGATIVITY, POLARIZABILITY, ACID, BASE, PRINCIPLE OF HSAB THEORY,
+OXIDATION STATES, HYBRIDIZATION AND MOLECULAR GEOMETRIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 6: STEREOCHEMISTRY"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "REPRESENTATIONS OF 3-D STRUCTURES, STRUCTURAL ISOMERS AND STEREOISOMERS,
+CONFIGURATIONS AND SYMMETRY AND CHIRALITY, ENANTIOMERS, DIASTEREOMERS, OPTICAL
+ACTIVITY, ABSOLUTE CONFIGURATIONS AND CONFORMATIONAL ANALYSIS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 7: ORGANIC REACTIONS AND SYNTHESIS OF A DRUG MOLECULE"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "INTRODUCTION TO INTERMEDIATES AND REACTIONS INVOLVING SUBSTITUTION,
+ADDITION, ELIMINATION, OXIDATION- REDUCTION, DIELS ELDER CYCLIZATION AND
+EPOXIDE RING OPENINGS REACTIONS. SYNTHESIS OF A COMMONLY USED DRUG MOLECULE
+LIKE ASPIRIN."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
 
 
             <!--            Button 3-->
-
 
             <Button
                 android:id="@+id/showbtn3"
@@ -122,7 +559,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -134,14 +572,98 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "DETAILED CONTENTS:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
-
-
+                <TextView
+                    android:id="@+id/btn3txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "1. MANUFACTURING METHODS-CASTING, FORMING, MACHINING, JOINING, ADVANCED
+MANUFACTURING METHODS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "2. CNC MACHINING, ADDITIVE MANUFACTURING"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "3. FITTING OPERATIONS AND POWER TOOLS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "4. CARPENTRY"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "5. PLASTIC MOULDING, GLASS CUTTING"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "6. METAL CASTING"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "7. WELDING (ARC WELDING AND GAS WELDING), BRAZING, SOLDERING"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
 
             <!--            Button4-->
@@ -165,9 +687,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
+                    android:text="Credits : 3"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -177,14 +700,302 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "1. VOCABULARY BUILDING"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
+                <TextView
+                    android:id="@+id/btn4txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. THE CONCEPT OF WORD FORMATION
+B. ROOT WORDS FROM FOREIGN LANGUAGES AND THEIR USE IN ENGLISH
+C. ACQUAINTANCE WITH PREFIXES AND SUFFIXES FROM FOREIGN LANGUAGES IN
+ENGLISH TO FORM DERIVATIVES.
+D. SYNONYMS, ANTONYMS, AND STANDARD ABBREVIATIONS.
+E. AFFIXES, ACRONYMS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "2. BASIC WRITING SKILLS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. SENTENCE STRUCTURES
+B. USE OF PHRASES AND CLAUSES IN SENTENCES
+C. IMPORTANCE OF PROPER PUNCTUATION
+D. KINDS OF SENTENCES
+E. USE OF TENSE, USE IN CONTEXT AND COHERENCE OF TENSE IN WRITING
+F. USE OF VOICE – ACTIVE/PASSIVE IN SENTENCES
+G. USE OF SPEECH – DIRECT AND INDIRECT SPEECH
+H. FRAMING QUESTIONS- DIRECT, USING MODAL VERBS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "3. IDENTIFYING COMMON ERRORS IN WRITING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. SUBJECT-VERB AGREEMENT
+B. NOUN-PRONOUN AGREEMENT
+C. MISPLACED MODIFIERS
+D. ARTICLES
+E. PREPOSITIONS
+F. REDUNDANCIES
+G. CLICHÉS
+H. COMMON ENGLISH ERRORS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "4. NATURE AND STYLE OF SENSIBLE WRITING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. DESCRIBING
+B. DEFINING
+C. CLASSIFYING
+D. PROVIDING EXAMPLES OR EVIDENCE
+E. WRITING INTRODUCTION AND CONCLUSION
+F. ORGANISING PRINCIPLE OF PARAGRAPHS IN DOCUMENTS
+G. ARGUMENT, DESCRIBING/ NARRATING/ PLANNING, DEFINING,CLASSIFYING
+H. LEXICAL RESOURCES, USING SUITABLE LANGUAGE REGISTER
+I. COHERENCE, WRITING INTRODUCTION, BODY AND CONCLUSION, TECHNIQUES FOR
+WRITING PRECISELY,GRAMMAR AND ACCURACY"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "5. WRITING PRACTICES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. COMPREHENSION
+B. FORMAL LETTER WRITING/ APPLICATION/ REPORT WRITING/ WRITING MINUTES OF
+MEETINGS
+C. ESSAY WRITING
+D. FORMAL EMAIL WRITING
+E. RESUME/ CV WRITING, COVER LETTER,
+F. STATEMENT OF PURPOSE"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "6. ORAL COMMUNICATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. LISTENING COMPREHENSION
+B. PRONUNCIATION, INTONATION, STRESS AND RHYTHM
+C. COMMON EVERYDAY SITUATIONS: CONVERSATIONS AND DIALOGUES
+D. COMMUNICATION AT WORKPLACE
+E. INTERVIEWS
+F. FORMAL PRESENTATIONS
+G. ACQUAINTING STUDENTS WITH IPA SYMBOLS
+H. PHONETICS (BASIC)
+I. SOUNDS – VOWELS, CONSONANTS
+J. CLEARING MOTHER TONGUE INFLUENCE
+K. CLEARING REDUNDANCIES AND COMMON ERRORS RELATED TO INDIANISMS
+L. GROUP DISCUSSION
+M. EXPRESSING OPINIONS
+N. COHERENCE AND FLUENCY IN SPEECH"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "7. READING SKILLS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. READING COMPREHENSION,
+B. PARAGRAPH READING BASED ON PHONETIC SOUNDS/ INTONATION"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "8. PROFESSIONAL SKILLS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. TEAM BUILDING
+B. SOFT SKILLS AND ETIQUETTES"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "9. ACQUAINTANCE WITH TECHNOLOGY-AIDED LANGUAGE LEARNING"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. USE OF COMPUTER SOFTWARE (GRAMMARLY, GINGER…)
+B. USE OF SMARTPHONE APPLICATIONS (DUOLINGO, BUSUU…)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "10. ACTIVITIES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn4txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "A. NARRATIVE CHAIN
+B. DESCRIBING/ NARRATING
+C. WRITING ESSAYS IN RELAY
+D. PEER/ GROUP ACTIVITIES
+E. BRAINSTORMING VOCABULARY
+F. CUE / FLASH CARDS FOR VOCABULARY
+G. DEBATES"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
 
 
