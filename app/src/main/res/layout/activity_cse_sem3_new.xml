@@ -36,7 +36,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -47,12 +48,159 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Module 1: Diode circuits"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="P-N junction diode, I-V characteristics of a diode; review of half-wave and full-wave
+rectifiers, Zener diodes, clamping and clipping circuits."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 2: BJT circuits"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Structure and I-V characteristics of a BJT; BJT as a switch. BJT as an amplifier: smallsignal
+model, biasing circuits, current mirror; common-emitter, common-base and common-collector
+amplifiers; Small signal equivalent circuits, high-frequency equivalent circuits."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 3: MOSFET circuits"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="MOSFET structure and I-V characteristics. MOSFET as a switch. MOSFET as an amplifier:
+small-signal model and biasing circuits, common-source, common-gate and common-drain amplifiers;
+small signal equivalent circuits - gain, input and output impedances, trans-conductance, high frequency
+equivalent circuit."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 4: Differential, multi-stage and operational amplifiers"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Differential amplifier; power amplifier; direct
+coupled multi-stage amplifier; internal structure of an operational amplifier, ideal op-amp, nonidealities
+in an op-amp (Output offset voltage, input bias current, input offset current, slew rate, gain
+bandwidth product)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 5: Linear applications of op-amp:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Idealized analysis of op-amp circuits. Inverting and non-inverting amplifier,
+differential amplifier, instrumentation amplifier, integrator, active filter, P, PI and PID controllers and
+lead/lag compensator using an op-amp, voltage regulator, oscillators (Wein bridge and phase shift). Analog
+to Digital Conversion."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 6: Nonlinear applications of op-amp:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Hysteretic Comparator, Zero Crossing Detector, Square-wave and
+triangular-wave generators. Precision rectifier, peak detector, Monoshot."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
             </LinearLayout>
 
 
@@ -77,7 +225,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -89,12 +238,134 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1:Introduction to C++ :"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Object Oriented Technology, Advantages of OOP, Input- output in C++, Tokens,
+Keywords, Identifiers, Data Types C++, Derives data types. The void data type, Type Modifiers,
+Typecasting, Constant, Operator, Precedence of Operators, Strings."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Control Structures and Functions:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Decision making statements like if-else, Nested if-else, goto, break,
+continue, switch case, Loop statement like for loop, nested for loop, while loop, do-while loop. Parts of
+Function, User- defined Functions, Value- Returning Functions, void Functions, Value Parameters,
+Function overloading, Virtual Functions."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Classes and Data Abstraction"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Structure in C++, Class, Build- in Operations on Classes, Assignment
+Operator and Classes, Class Scope, Reference parameters and Class Objects (Variables), Member
+functions, Accessor and Mutator Functions, Constructors, default Constructor, Destructors"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Overloading, Templates and Inheritance"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Operator Overloading, Function Overloading, Function
+Templates, Class Templates. Single and Multiple Inheritance, virtual Base class, Abstract Class, Pointer
+and Inheritance, Overloading Member Function."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5: Pointers, Arrays and Exception Handling"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Void Pointers, Pointer to Class, Pointer to Object, Void Pointer,
+Arrays. The keywords try, throw and catch. Creating own Exception Classes, Exception Handling
+Techniques (Terminate the Program, Fix the Error and Continue, Log the Error and Continue), Stack
+Unwinding."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>
@@ -122,7 +393,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -134,10 +406,159 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1: Introduction"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic Terminologies: Elementary Data Organizations, Data Structure
+Operations: insertion, deletion, traversal etc.; Analysis of an Algorithm, Asymptotic
+Notations, Time-Space trade off."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Stacks and Queues:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "ADT Stack and its operations: Algorithms and their complexity
+analysis, Applications of Stacks: Expression Conversion and evaluation – corresponding
+algorithms and complexity analysis. ADT queue, Types of Queue: Simple Queue, Circular
+Queue, Priority Queue; Operations on each Type of Queues: Algorithms and their analysis."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Linked Lists:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Singly linked lists: Representation in memory, Algorithms of several
+operations: Traversing, Searching, Insertion into, Deletion from linked list; Linked
+representation of Stack and Queue, Header nodes, doubly linked list: operations on it and
+algorithmic analysis; Circular Linked Lists: all operations their algorithms and the
+complexity analysis."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Searching, Sorting and Hashing:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Linear Search and Binary Search Techniques and their
+complexity analysis. Objective and properties of different sorting algorithms: Selection
+Sort, Bubble Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort; Performance and
+Comparison among all the methods, Hashing."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5: Trees"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic Tree Terminologies, Different types of Trees: Binary Tree, Threaded Binary
+Tree, Binary Search Tree, AVL Tree; Tree operations on each of the trees and their
+algorithms with complexity analysis. Applications of Binary Trees. B Tree, B+ Tree:
+definitions, algorithms and analysis."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Graph"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic Terminologies and Representations, Graph search and traversal algorithms
+and complexity analysis"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -165,7 +586,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:text="Credits : 2"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -177,10 +598,153 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Successive􀀃Differentiation,􀀃Leibnitz’s􀀃Theorem.􀀃Limit,􀀃Continuity􀀃and􀀃Differentiability􀀃of􀀃function􀀃for􀀃one􀀃
+variable."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Limit, Continuity and Differentiability of function􀀃 for􀀃 several􀀃 variables.􀀃 Partial􀀃 Derivatives,􀀃 Euler’s􀀃
+Theorem for Homogeneous functions, Total derivatives, Change of Variables. Maxima and Minima of Several􀀃Variables.􀀃Methods􀀃of􀀃Lagrange􀀃Multipliers.􀀃Taylor’s􀀃and􀀃Maclaurin’s􀀃Theorem􀀃with􀀃remainders􀀃
+of several variables."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Vector Calculus:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Gradient, Divergence and Curl of a Vector and their Physical Interpretations, Vector
+Identities.􀀃Directional􀀃Derivatives.􀀃Line,􀀃Surface􀀃and􀀃Volume􀀃integrals,􀀃􀀄pplication􀀃of􀀃Green’s,􀀃Stokes and
+Gauss Divergence Theorem (Without Proof)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: First Order Ordinary Differential Equations"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Exact,􀀃Linear􀀃and􀀃Bernoulli’s􀀃Equations,􀀃Euler’s􀀃Equations,􀀃
+Equations not of First Degree: Equations Solvable for P, Equations Solvable for Y, Equations Solvable
+for􀀃X􀀃and􀀃Clairaut’s􀀃Type.􀀃"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5: Ordinary Differential Equations of Higher Orders:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Second Order Linear Differential Equations with
+Variable Coefficients, Method of Variation of Parameters, Cauchy-Euler Equation; Power Series
+Solutions; Legendre Polynomials, Bessel Functions of the First Kind and their properties."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 6: Partial Differential Equations – First Order:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "First Order Partial Differential Equations, Solutions of
+First Order Linear and Non-Linear PDEs."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -209,7 +773,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -221,12 +786,160 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1: Introduction"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Fundamentals of Technical Writing: Need for Clear and Concise Technical Writing,
+Attributes of Technical Writing, Types of Technical Writing, Benefits of Technical Writing, Technical,
+Managerial and General Readers, Expressing versus Impressing, Correct use of Noun, Pronoun, Verb,
+Adjective, Adverbs, Tense and Punctuation."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Performing Technical Studies"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Types of Technical Studies, General Methodology- Proposing a Project,
+Gathering Background Information, Designing Test Plans, Performing Experiments, Reporting Results.
+Writing Strategy: Analysis of Readers, Scope of Writing, Purpose and Objective. Document Options:
+Document Hierarchy, Report Types and Selection. Criteria for Good Technical Writing: Technical
+Content, Presentation, Language Skills. Writing Style: Elements of Style, Examples of Writing Styles,
+Recommended Style, Learn to Prepare Effective Illustrations"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Formal Reports"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "The Outline and Introduction (Outline, Title, Front Matter, Writing the Introduction),
+Writing the Body (Writing a Procedure, Describing Machines/Processes, Writing Test Results, Writing
+the Discussion Section), Closure (Conclusions, Recommendations, References, Abstract, Back Matter,
+Report Distribution, Saving Reports)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Informal Reports"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Elements of an Informal Report, Investigation
+Reports, Service Work, Action Letters and Proposals. Typical Memo Reports."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Review and Editing:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Types of Review and Edit, Review and Editing Methodology, Examples
+of Reviews. "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Oral Presentations:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Types of Oral Presentations, Preparation, Visual Aids,
+Impediments to Technical Writing, Maintaining Writing Skills, Measuring Report Results."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>

@@ -36,7 +36,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -47,12 +48,147 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Module 1: Fundamentals of Digital Systems and logic families"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Digital signals, digital circuits, AND, OR,
+NOT, NAND, NOR and Exclusive-OR operations, Boolean algebra, examples of IC gates,
+number systems-binary, signed binary, octal hexadecimal number, binary arithmetic, one’s
+and two’s complements arithmetic, codes, error detecting and correcting codes, characteristics
+of digital lCs, digital logic families, TTL, Schottky TTL and CMOS logic, interfacing CMOS and TTL,
+Tri - state logic"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 2: Combinational Digital Circuits:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Standard representation for logic functions K-map
+representation, simplification of logic functions using K-map, minimization of logical functions.Don’t care conditions, Multiplexer, DeMultiplexer/Decoders, Adders, Subtractors, BCD
+arithmetic, carry look ahead adder, serial adder, ALU, elementary ALU design, popular MSI
+chips, digital comparator, parity checker/generator, code converters, priority encoders,
+decoders/drivers for display devices, Q-M method of function realization. "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 3:Sequential circuits and systems"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="A 1-bit memory, the circuit properties of Bistable latch,
+the clocked SR flip flop, J- K-T and D types flip flops, applications of flip flops, shift registers,
+applications of shift registers, serial to parallel converter, parallel to serial converter, ring
+counter, sequence generator, ripple (Asynchronous) counters, synchronous counters,
+counters design using flip flops, special counter IC’s, asynchronous sequential counters,
+applications of counters."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 4: A/D and D/A Converters:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Digital to analog converters: weighted resistor/converter, R-
+2RLadder D/A converter, specifications for D/A converters, examples of D/A converter lCs,
+sample and hold circuit, analog to digital converters: quantization and encoding, parallel
+comparator A/D converter, successive approximation A/D converter, counting A/D
+converter, dual slope A/D converter, A/D converter using
+Voltage to frequency and voltage to time conversion, specifications of A/D converters, example
+of A/D converter ICs."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 4: A/D and D/A Converters:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Memory organization and
+operation, expanding memory size, classification and characteristics of memories, sequential
+memory, read only memory (ROM), read and write memory(RAM), content addressable
+memory (CAM), charge de coupled device memory (CCD), commonly used memory chips,
+ROM as a PLD, Programmable logic array, Programmable array logic, complex
+Programmable logic devices (CPLDS), Field Programmable Gate Array (FPGA)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
             </LinearLayout>
 
 
@@ -77,7 +213,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -89,12 +226,234 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Functional blocks of a computer:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CPU, memory, input-output subsystems, control unit.
+Instruction set architecture of a CPU–registers, instruction execution cycle, RTL
+interpretation of instructions, addressing modes, instruction set. Case study – instruction
+sets of some common CPUs."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Data representation:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "signed number representation, fixed and floating point
+representations, character representation. Computer arithmetic – integer addition and
+subtraction, ripple carry adder, carry look-ahead adder, etc. multiplication – shift-and-add,
+Booth multiplier, carry save multiplier, etc. Division restoring and non-restoring techniques,
+floating point arithmetic."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Introduction to x86 architecture. CPU control unit design:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "hardwired and microprogrammed
+design approaches, Case study – design of a simple hypothetical CPU. Memory
+system design: semiconductor memory technologies, memory organization."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Peripheral devices and their characteristics:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Input-output subsystems, I/O device
+interface, I/O transfers–program controlled, interrupt driven and DMA, privileged and nonprivileged
+instructions, software interrupts and exceptions. Programs and processes–role of
+interrupts in process state transitions, I/O device interfaces – SCII, USB."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Pipelining"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic concepts of pipelining, throughput and speedup, pipeline hazards."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Parallel Processors"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction to parallel processors, Concurrent access to memory and
+cache coherency."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Memory organization"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Memory interleaving, concept of hierarchical memory organization,
+cache memory, cache size vs. Block size, mapping functions, replacement algorithms, write
+policies."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
             </LinearLayout>
@@ -122,7 +481,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -134,12 +494,368 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Introduction"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Concept of Operating Systems, Generations of Operating systems, Types of
+Operating Systems, OS Services, System Calls, Structure of an OS-Layered, Monolithic,
+Microkernel Operating Systems, Concept of Virtual Machine. Case study on UNIX and
+WINDOWS Operating System."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Processes"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Process Relationship, Different states of a Process, Process State
+transitions, Process Control Block (PCB), Context switching."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Thread:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Various states, Benefits of threads, Types of threads, Concept of
+multithreads"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Process Scheduling:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Foundation and Scheduling objectives, Types of Schedulers, Scheduling
+criteria: CPU utilization, Throughput, Turnaround Time, Waiting Time, Response Time;
+Scheduling algorithms: Pre-emptive and Non pre-emptive, FCFS, SJF, RR; Multiprocessor
+scheduling: Real Time scheduling: RM and EDF."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Inter-process Communication:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Critical Section, Race Conditions, Mutual Exclusion, Hardware
+Solution, Strict Alternation, Peterson’s Solution, The Producer - Consumer Problem,
+Semaphores, Event Counters, Monitors, Message Passing, Shared Memory, Classical IPC
+Problems: Reader’s and Writer Problem, Dinning Philosopher Problem etc."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Deadlocks:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Necessary and sufficient conditions for
+Deadlock, Deadlock Prevention, and Deadlock Avoidance: Banker’s algorithm, Deadlock
+detection and Recovery."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Memory Management:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/btn3txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic concept, Logical and Physical address map, Memory allocation:
+Contiguous Memory allocation – Fixed and variable partition–Internal and External
+fragmentation and Compaction; Paging and Segmentation: Principle of operation – Page
+allocation – Hardware support for paging, Protection and sharing, Advantages and
+Disadvantages of paging and segmentation."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Virtual Memory:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basics of Virtual Memory – Hardware and control structures – Locality of
+reference, Page fault , Working Set , Dirty page/Dirty bit – Demand paging, Page
+Replacement algorithms: Optimal, First in First Out (FIFO), Second Chance (SC), Not
+recently used (NRU) and Least Recently used (LRU)."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 6"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "File Management:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Concept of File, Access methods, File types, File operation, Directory
+structure, File System structure, Allocation methods (contiguous, linked, indexed), Freespace
+management (bit vector, linked list, grouping), directory implementation (linear list, hash
+table), efficiency and performance."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Disk Management:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Disk structure, Disk scheduling - FCFS, SSTF, SCAN, C-SCAN, Disk reliability,
+Disk formatting, Boot-block, Bad blocks"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "I/O Hardware:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "I/O devices, Device controllers, Direct memory access, Principles of I/O
+Software: Goals of Interrupt handlers, Device drivers, Device independent I/O software,
+Secondary-Storage Structure."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+
 
 
             </LinearLayout>
@@ -165,7 +881,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 4"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -177,12 +894,226 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Sets, Relation and Function"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Operations and Laws of Sets, Cartesian Products,
+Binary Relation, Partial Ordering Relation, Equivalence Relation, Image of a Set, Sum
+and Product of Functions, Bijective functions, Inverse and Composite Function, Size of a
+Set, Finite and infinite Sets, Countable and uncountable Sets, Cantor's diagonal
+argument and The Power Set theorem, Schroeder-Bernstein theorem."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Principles of Mathematical Induction"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "The Well-Ordering Principle, Recursive definition,
+The Division algorithm: Prime Numbers, The Greatest Common Divisor: Euclidean
+Algorithm, The Fundamental Theorem of Arithmetic."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Basic counting techniques"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "inclusion and exclusion, pigeon-hole principle, permutation
+and combination."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Propositional Logic:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Syntax, Semantics, Validity and Satisfiability, Basic Connectives and
+Truth Tables, Logical Equivalence: The Laws of Logic, Logical Implication, Rules of
+Inference, The use of Quantifiers. Proof Techniques: Some Terminology, Proof Methods
+and Strategies, Forward Proof, Proof by Contradiction, Proof by Contraposition, Proof of
+Necessity and Sufficiency."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Algebraic Structures and Morphism:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Algebraic Structures with one Binary Operation,
+Semi Groups, Monoids, Groups, Congruence Relation and Quotient Structures, Free and
+Cyclic Monoids and Groups, Permutation Groups, Substructures, Normal Subgroups,
+Algebraic Structures with two Binary Operation, Rings, Integral Domain and Fields.
+Boolean Algebraand Boolean Ring, Identities of Boolean Algebra, Duality, Representation of
+Boolean Function, Disjunctive and Conjunctive Normal Form"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Graphs and Trees:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Graphs and their properties, Degree, Connectivity, Path, Cycle,
+Sub Graph, Isomorphism, Eulerian and Hamiltonian Walks, Graph Coloring, Coloring maps
+and Planar Graphs, Coloring Vertices, Coloring Edges, List Coloring, Perfect Graph,
+definition properties and Example, rooted trees, trees and sorting, weighted trees and
+prefix codes, Bi-connected component and Articulation Points, Shortest distances."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>
@@ -209,7 +1140,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -221,10 +1153,139 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1: Introduction"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Characteristics of algorithm. Analysis of algorithm: Asymptotic analysis of
+complexity bounds – best, average and worst-case behavior; Performance
+measurements of Algorithm, Time and space trade-offs, Analysis of recursive algorithms
+through recurrence relations: Substitution method, Recursion tree method and Masters’
+theorem."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Introduction to Divide and Conquer paradigm:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Binary Search, Quick and Merge sorting
+techniques, linear time selection algorithm, Strassen’s Matrix Multiplication, Karatsuba
+Algorithm for fast multiplication etc. Introduction to Heap: Min and Max Heap, Build Heap,
+Heap Sort"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Overview of Brute-Force, GreedyProgramming, Dynamic Programming, Branch- and-Bound
+and Backtrackingmethodologies. Greedy paradigm examples of exact optimization solution:
+Minimum Cost Spanning Tree, Knapsack problem, Job Sequencing Problem, Huffman
+Coding, Single source shortest path problem.
+Dynamic Programming, difference between dynamic programming and divide and conquer,
+Applications: Fibonacci Series, Matrix Chain Multiplication, 0-1 Knapsack Problem, Longest
+Common Subsequence, Travelling Salesman Problem, Rod Cutting, Bin Packing.
+Heuristics – characteristics and their application domains"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Graph and Tree Algorithms"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Representational issues in graphs, Traversal algorithms: Depth
+First Search (DFS) and Breadth First Search (BFS); Shortest path algorithms: Bellman-
+Ford algorithm,Dijkstra’s algorithm and Analysis of Dijkstra’s algorithm using heaps, Floyd-Warshall’s all pairs shortest path algorithm.Transitive closure, Topological sorting, Network
+Flow Algorithm, Connected Component"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5: Tractable and Intractable Problems"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Computability of Algorithms, Computability classes – P,
+NP, NP-complete and NP-hard. Cook’s theorem, Standard NP-complete problems and
+Reduction techniques.
+Approximation algorithms, Randomized algorithms"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -294,7 +1355,8 @@ Organizational Behavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -306,10 +1368,135 @@ Organizational Behavior"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1: Introduction"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "HR Role and Functions, Concept and Significance of HR, Changing role of HR
+managers - HR functions and Global Environment, role of a HR Manager. Human Resources
+Planning: HR Planning andRecruitment: Planning Process - planning at different levels - Job
+Analysis"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Recruitment and selection processes"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Restructuring strategies - Recruitment-Sources of
+Recruitment-Selection Process-Placement and Induction-Retention of Employees. Training and
+Development: need for skill upgradation - Assessment of training needs - Retraining and
+Redeployment methods and techniques of training employees and executives – performance
+appraisal systems"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Performance Management System:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Concepts and Ethics-Different methods of
+Performance Appraisal- Rating Errors Competency management. Industrial Relations : Factors
+influencing industrial relations - State Interventions and Legal Framework - Role of Trade
+unions - Collective Bargaining - Workers; participation in management."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Organizational Behaviour:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Importance, Historical Background, Fundamental
+Concepts of OB, Challenges and Opportunities for OB. Personality and Attitudes: Meaning of
+personality, Personality Determinants and Traits, Development of Personality, Types of
+Attitudes, Job Satisfaction."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5: Leadership"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Definition, Importance, Theories of Leadership Styles. Organizational Politics:
+Definition, Factors contributing to Political Behavior. Conflict Management: Traditional vis-a-vis
+Modern View of Conflict, Functional and Dysfunctional Conflict, Conflict Process, Negotiation -
+Bargaining Strategies, Negotiation Process."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 

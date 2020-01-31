@@ -77,7 +77,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credit : 5.5"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -89,12 +90,247 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: WAVES"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "MECHANICAL AND ELECTRICAL SIMPLE HARMONIC OSCILLATORS, DAMPED HARMONIC
+OSCILLATOR, FORCED MECHANICAL AND ELECTRICAL OSCILLATORS, IMPEDANCE, STEADY
+STATE MOTION OF FORCED DAMPED HARMONIC OSCILLATOR"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: NON-DISPERSIVE TRANSVERSE AND LONGITUDINAL WAVES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "TRANSVERSE WAVE ON A STRING, THE WAVE EQUATION ON A STRING, HARMONIC
+WAVES, REFLECTION AND TRANSMISSION OF WAVES AT A BOUNDARY, IMPEDANCE MATCHING,
+STANDING WAVES AND THEIR EIGEN FREQUENCIES, LONGITUDINAL WAVES AND THE WAVE
+EQUATION FOR THEM, ACOUSTICS WAVES"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: LIGHT AND OPTICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "LIGHT AS AN ELECTROMAGNETIC WAVE AND FRESNEL EQUATIONS, REFLECTANCE AND
+TRANSMITTANCE, BREWSTER’S ANGLE, TOTAL INTERNAL REFLECTION, AND EVANESCENT WAVE.
+MIRRORS AND LENSES AND OPTICAL INSTRUMENTS BASED ON THEM"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: WAVE OPTICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "HUYGENS’ PRINCIPLE, SUPERPOSITION OF WAVES AND INTERFERENCE OF LIGHT BY
+WAVEFRONT SPLITTING AND AMPLITUDE SPLITTING; YOUNG’S DOUBLE SLIT EXPERIMENT,
+NEWTON’S RINGS, MICHELSON INTERFEROMETER, MACH ZEHNDER INTERFEROMETER.
+FARUNHOFER DIFFRACTION FROM A SINGLE SLIT AND A CIRCULAR APERTURE, THE RAYLEIGH
+CRITERION FOR LIMIT OF RESOLUTION AND ITS APPLICATION TO VISION; DIFFRACTION
+GRATINGS AND THEIR RESOLVING POWER"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: LASERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "EINSTEIN’S THEORY OF MATTER RADIATION INTERACTION AND A AND B
+COEFFICIENTS; AMPLIFICATION OF LIGHT BY POPULATION INVERSION, DIFFERENT TYPES
+OF LASERS: GAS LASERS (HE-NE, CO2), SOLID-STATE LASERS (RUBY, NEODYMIUM), DYE
+LASERS; PROPERTIES OF LASER BEAMS: MONO-CHROMATICITY"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 6: INTRODUCTION TO QUANTUM MECHANICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "WAVE NATURE OF PARTICLES, TIME-DEPENDENT AND TIME-INDEPENDENT SCHRODINGER
+EQUATION FOR WAVE FUNCTION, BORN INTERPRETATION, PROBABILITY CURRENT,
+EXPECTATION VALUES, FREE-PARTICLE WAVE FUNCTION AND WAVE-PACKETS, UNCERTAINTY
+PRINCIPLE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 7: SOLUTION OF WAVE EQUATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SOLUTION OF STATIONARY-STATE SCHRODINGER EQUATION FOR ONE DIMENSIONAL
+PROBLEMS–PARTICLE IN A BOX, PARTICLE IN ATTRACTIVE DELTA-FUNCTION POTENTIAL,
+SQUARE-WELL POTENTIAL, LINEAR HARMONIC OSCILLATOR. SCATTERING FROM A POTENTIAL
+BARRIER AND TUNNELING; RELATED EXAMPLES LIKE ALPHA- DECAY, FIELD-IONIZATION AND
+SCANNING TUNNELING MICROSCOPE, TUNNELING IN SEMICONDUCTOR STRUCTURES. THREEDIMENSIONAL
+PROBLEMS: PARTICLE IN THREE DIMENSIONAL BOX AND RELATED EXAMPLES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 8: INTRODUCTION TO SOLIDS AND SEMICONDUCTORS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "FREE ELECTRON THEORY OF METALS, FERMI LEVEL, DENSITY OF STATES IN 1, 2
+AND 3 DIMENSIONS, BLOCH’S THEOREM FOR PARTICLES IN A PERIODIC POTENTIAL, KRONIGPENNEY
+MODEL AND ORIGIN OF ENERGY BANDS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "TYPES OF ELECTRONIC MATERIALS : "
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "METALS, SEMICONDUCTORS, AND INSULATORS.
+INTRINSIC AND EXTRINSIC SEMICONDUCTORS, DEPENDENCE OF FERMI LEVEL ON CARRIERCONCENTRATION
+AND TEMPERATURE (EQUILIBRIUM CARRIER STATISTICS), CARRIER
+GENERATION AND RECOMBINATION, CARRIER TRANSPORT: DIFFUSION AND DRIFT, P -N
+JUNCTION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>
@@ -165,7 +401,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credit : 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:fontFamily="@font/bold"
+                    android:text="MODULE 1: MATRICES"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -173,14 +422,104 @@
                     app:layout_constraintStart_toStartOf="parent" />
 
                 <TextView
-                    android:id="@+id/btn4txt2"
+                    android:id="@+id/btn4txt3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:text= "ALGEBRA OF MATRICES, INVERSE AND RANK OF A MATRIX, RANK-NULLITY THEOREM;
+SYSTEM OF LINEAR EQUATIONS; SYMMETRIC, SKEW-SYMMETRIC AND ORTHOGONAL MATRICES;
+DETERMINANTS; EIGENVALUES AND EIGENVECTORS; DIAGONALIZATION OF MATRICES;
+CAYLEY-HAMILTON THEOREM, ORTHOGONAL TRANSFORMATION AND QUADRATIC TO CANONICAL
+FORMS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 2: NUMERICAL METHODS-I"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SOLUTION OF POLYNOMIAL AND TRANSCENDENTAL EQUATIONS – BISECTION METHOD,
+NEWTON-RAPHSON METHOD AND REGULA-FALSI METHOD. FINITE DIFFERENCES,
+INTERPOLATION USING NEWTON’S FORWARD AND BACKWARD DIFFERENCE FORMULAE. CENTRAL
+DIFFERENCE INTERPOLATION: GAUSS’S FORWARD AND BACKWARD FORMULAE. NUMERICAL
+INTEGRATION: TRAPEZOIDAL RULE AND SIMPSON’S 1/3RD AND 3/8 RULES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 3: NUMERICAL METHODS-II"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "ORDINARY DIFFERENTIAL EQUATIONS: TAYLOR’S SERIES, EULER AND MODIFIED
+EULER’S METHODS. RUNGE- KUTTA METHOD OF FOURTH ORDER FOR SOLVING FIRST AND
+SECOND ORDER EQUATIONS. MILNE’S AND ADAM’S PREDICATOR-CORRECTOR METHODS.
+PARTIAL DIFFERENTIAL EQUATIONS: FINITE DIFFERENCE SOLUTION TWO DIMENSIONAL
+LAPLACE EQUATION AND POISSON EQUATION, IMPLICIT AND EXPLICIT METHODS FOR ONE
+DIMENSIONAL HEAT EQUATION (BENDER-SCHMIDT AND CRANK-NICHOLSON METHODS), FINITE
+DIFFERENCE EXPLICIT METHOD FOR WAVE EQUATION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4: TRANSFORM CALCULUS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "LAPLACE TRANSFORM, PROPERTIES OF LAPLACE TRANSFORM, LAPLACE TRANSFORM OF
+PERIODIC FUNCTIONS. FINDING INVERSE LAPLACE TRANSFORM BY DIFFERENT METHODS,
+CONVOLUTION THEOREM. EVALUATION OF INTEGRALS BY LAPLACE TRANSFORM, SOLVING ODES
+AND PDES BY LAPLACE TRANSFORM METHOD. FOURIER TRANSFORMS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 

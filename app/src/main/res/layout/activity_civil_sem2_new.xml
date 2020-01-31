@@ -209,7 +209,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 4"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -221,12 +222,256 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 3A: FIRST ORDER ORDINARY DIFFERENTIAL EQUATIONS"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn5txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "EXACT, LINEAR AND BERNOULLI’S EQUATIONS, EULER’S EQUATIONS, EQUATIONS NOT
+OF FIRST DEGREE: EQUATIONS SOLVABLE FOR P, EQUATIONS SOLVABLE FOR Y, EQUATIONS
+SOLVABLE FOR X AND CLAIRAUT’S TYPE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3B: ORDINARY DIFFERENTIAL EQUATIONS OF HIGHER ORDERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SECOND ORDER LINEAR DIFFERENTIAL EQUATIONS WITH VARIABLE COEFFICIENTS,
+METHOD OF VARIATION OF PARAMETERS, CAUCHY-EULER EQUATION; POWER SERIES
+SOLUTIONS; LEGENDRE POLYNOMIALS, BESSEL FUNCTIONS OF THE FIRST KIND AND THEIR
+PROPERTIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 3C: PARTIAL DIFFERENTIAL EQUATIONS – FIRST ORDER"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "FIRST ORDER PARTIAL DIFFERENTIAL EQUATIONS, SOLUTIONS OF FIRST ORDER
+LINEAR AND NON-LINEAR PDES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 3D: PARTIAL DIFFERENTIAL EQUATIONS – HIGHER ORDER"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SOLUTION TO HOMOGENOUS AND NON-HOMOGENOUS LINEAR PARTIAL DIFFERENTIAL
+EQUATIONS SECOND AND HIGHER ORDER BY COMPLIMENTARY FUNCTION AND PARTICULAR
+INTEGRAL METHOD. FLOWS, VIBRATIONS AND DIFFUSIONS, SECOND-ORDER LINEAR
+EQUATIONS AND THEIR CLASSIFICATION, INITIAL AND BOUNDARY CONDITIONS (WITH AN
+INFORMAL DESCRIPTION OF WELL-POSED PROBLEMS), D'ALEMBERT'S SOLUTION OF THE WAVE
+EQUATION; DUHAMEL'S PRINCIPLE FOR ONE DIMENSIONAL WAVE EQUATION. SEPARATION OF
+VARIABLES METHOD TO SIMPLE PROBLEMS IN CARTESIAN COORDINATES. THE LAPLACIAN IN
+PLANE, CYLINDRICAL AND SPHERICAL POLAR COORDINATES, SOLUTIONS WITH BESSEL
+FUNCTIONS AND LEGENDRE FUNCTIONS. ONE DIMENSIONAL DIFFUSION EQUATION AND ITS
+SOLUTION BY SEPARATION OF VARIABLES. BOUNDARY-VALUE PROBLEMS: SOLUTION OF
+BOUNDARY-VALUE PROBLEMS FOR VARIOUS LINEAR PDES IN VARIOUS GEOMETRIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4A: COMPLEX VARIABLE – DIFFERENTIATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "DIFFERENTIATION, CAUCHY-RIEMANN EQUATIONS, ANALYTIC FUNCTIONS, HARMONIC
+FUNCTIONS, FINDING HARMONIC CONJUGATE; ELEMENTARY ANALYTIC FUNCTIONS
+(EXPONENTIAL, TRIGONOMETRIC, LOGARITHM) AND THEIR PROPERTIES; CONFORMAL
+MAPPINGS, MOBIUS TRANSFORMATIONS AND THEIR PROPERTIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4B: COMPLEX VARIABLE - INTEGRATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CONTOUR INTEGRALS, CAUCHY-GOURSAT THEOREM (WITHOUT PROOF), CAUCHY
+INTEGRAL FORMULA (WITHOUT PROOF), LIOUVILLE’S THEOREM AND MAXIMUM-MODULUS
+THEOREM(WITHOUT PROOF); TAYLOR’S SERIES, ZEROS OF ANALYTIC FUNCTIONS,
+SINGULARITIES, LAURENT’S SERIES; RESIDUES, CAUCHY RESIDUE THEOREM (WITHOUT
+PROOF), EVALUATION OF DEFINITE INTEGRAL INVOLVING SINE AND COSINE, EVALUATION
+OF CERTAIN IMPROPER INTEGRALS USING THE BROMWICH CONTOUR."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 4C: APPLICATIONS OF COMPLEX INTEGRATION BY RESIDUES:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "EVALUATION OF DEFINITE INTEGRAL INVOLVING SINE AND COSINE. EVALUATION OF
+CERTAIN IMPROPER INTEGRALS USING THE BROMWICH CONTOUR."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="MODULE 5A: NUMERICAL METHODS – 1"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SOLUTION OF POLYNOMIAL AND TRANSCENDENTAL EQUATIONS – BISECTION METHOD,
+NEWTON-RAPHSON METHOD AND REGULA-FALSI METHOD. FINITE DIFFERENCES,
+RELATION BETWEEN OPERATORS, INTERPOLATION USING NEWTON’S FORWARD AND BACKWARD
+DIFFERENCE FORMULAE. INTERPOLATION WITH UNEQUAL INTERVALS: NEWTON’S DIVIDED
+DIFFERENCE AND LAGRANGE’S FORMULAE. NUMERICAL DIFFERENTIATION, NUMERICAL
+INTEGRATION: TRAPEZOIDAL RULE AND SIMPSON’S 1/3RD AND 3/8 RULES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:text="MODULE 5B: NUMERICAL METHODS – 2"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "ORDINARY DIFFERENTIAL EQUATIONS: TAYLOR’S SERIES, EULER AND MODIFIED
+EULER’S METHODS. RUNGE- KUTTA METHOD OF FOURTH ORDER FOR SOLVING FIRST AND
+SECOND ORDER EQUATIONS. MILNE’S AND ADAM’S PREDICATOR-CORRECTOR METHODS.
+PARTIAL DIFFERENTIAL EQUATIONS: FINITE DIFFERENCE SOLUTION TWO DIMENSIONAL
+LAPLACE EQUATION AND POISSION EQUATION, IMPLICIT AND EXPLICIT METHODS FOR ONE
+DIMENSIONAL HEAT EQUATION (BENDER-SCHMIDT AND CRANK-NICHOLSON METHODS), FINITE
+DIFFERENCE EXPLICIT METHOD FOR WAVE EQUATION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
 
 
             </LinearLayout>

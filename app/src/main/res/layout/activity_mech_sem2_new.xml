@@ -209,7 +209,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credit : 4"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -221,10 +222,138 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: MULTIVARIABLE CALCULUS (INTEGRATION)"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "MULTIPLE INTEGRATION: DOUBLE INTEGRALS (CARTESIAN), CHANGE OF ORDER OF
+INTEGRATION IN DOUBLE INTEGRALS, CHANGE OF VARIABLES (CARTESIAN TO POLAR),
+APPLICATIONS: AREAS AND VOLUMES, CENTER OF MASS AND GRAVITY (CONSTANT AND
+VARIABLE DENSITIES); TRIPLE INTEGRALS (CARTESIAN), ORTHOGONAL CURVILINEAR
+COORDINATES, SIMPLE APPLICATIONS INVOLVING CUBES, SPHERE AND RECTANGULAR
+PARALLELEPIPEDS; SCALAR LINE INTEGRALS, VECTOR LINE INTEGRALS, SCALAR SURFACE
+INTEGRALS, VECTOR SURFACE INTEGRALS, THEOREMS OF GREEN, GAUSS AND STOKES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: FIRST ORDER ORDINARY DIFFERENTIAL EQUATIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "EXACT, LINEAR AND BERNOULLI’S EQUATIONS, EULER’S EQUATIONS, EQUATIONS NOT
+OF FIRST DEGREE: EQUATIONS SOLVABLE FOR P, EQUATIONS SOLVABLE FOR Y, EQUATIONS
+SOLVABLE FOR X AND CLAIRAUT’S TYPE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: ORDINARY DIFFERENTIAL EQUATIONS OF HIGHER ORDERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "SECOND ORDER LINEAR DIFFERENTIAL EQUATIONS WITH VARIABLE COEFFICIENTS,
+METHOD OF VARIATION OF PARAMETERS, CAUCHY-EULER EQUATION; POWER SERIES
+SOLUTIONS; LEGENDRE POLYNOMIALS, BESSEL FUNCTIONS OF THE FIRST KIND AND THEIR
+PROPERTIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: COMPLEX VARIABLE – DIFFERENTIATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "DIFFERENTIATION, CAUCHY-RIEMANN EQUATIONS, ANALYTIC FUNCTIONS, HARMONIC
+FUNCTIONS, FINDING HARMONIC CONJUGATE; ELEMENTARY ANALYTIC FUNCTIONS
+(EXPONENTIAL, TRIGONOMETRIC, LOGARITHM) AND THEIR PROPERTIES; CONFORMAL
+MAPPINGS, MOBIUS TRANSFORMATIONS AND THEIR PROPERTIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: COMPLEX VARIABLE – INTEGRATION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CONTOUR INTEGRALS, CAUCHY-GOURSAT THEOREM (WITHOUT PROOF), CAUCHY
+INTEGRAL FORMULA (WITHOUT PROOF), LIOUVILLE’S THEOREM AND MAXIMUM-MODULUS
+THEOREM (WITHOUT PROOF); TAYLOR’S SERIES, ZEROS OF ANALYTIC FUNCTIONS,
+SINGULARITIES, LAURENT’S SERIES; RESIDUES, CAUCHY RESIDUE THEOREM (WITHOUT
+PROOF), EVALUATION OF DEFINITE INTEGRAL INVOLVING SINE AND COSINE, EVALUATION
+OF CERTAIN IMPROPER INTEGRALS USING THE BROMWICH CONTOUR."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 

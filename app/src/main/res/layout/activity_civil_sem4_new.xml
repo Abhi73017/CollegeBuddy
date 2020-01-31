@@ -36,7 +36,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -47,10 +48,200 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Module 1:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Basic Concepts- Basic concepts - concept of continuum, macroscopic approach,
+Thermodynamic systems - closed, open and isolated. Property, state, path and process, quasistatic
+process, work, modes of work. Zeroth law of thermodynamics, concept of temperature and heat.
+Concept of ideal and real gases."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 2:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="First Law of Thermodynamics- Concepts of Internal Energy, Specific Heat Capacities,
+Enthalpy. Energy Balance for Closed and Open Systems, Energy Balance for
+Steady-Flow Systems. Steady-Flow Engineering Devices. Energy Balance for Unsteady- Flow"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 3:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Second Law of Thermodynamics- Thermal energy reservoirs, heat engines energy
+conversion, Kelvin’s and Clausius statements of second law, the Carnot cycle, the Carnot Theorem,
+the thermodynamic temperature scale, the Carnot heat engine, efficiency, the Carnot refrigerator
+and heat pump, COP. Clausius inequality, concept of entropy, principle of increase of entropy –
+availability, the increase of entropy principle, perpetual-motion machines, reversible and
+irreversible processes, Entropy change of pure substances, isentropic processes, property diagrams
+involving entropy, entropy change of liquids and solids, the entropy change of ideal gases,
+reversible steady-flow work, minimizing the compressor work, isentropic efficiencies of steady-flow
+devices, and entropy balance. Energy - a measure of work potential, including work potential of
+energy, reversible work and irreversibility, second-law efficiency, exergy change of a system,
+energy transfer by heat, work, and mass, the decrease of exergy principle and exergy destruction,
+energy balance: closed systems and control volumes energy balance."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 4:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Properties Of Pure Substance- Properties of pure substances. Thermodynamic
+properties of pure substances in solid, liquid and vapour phases. Phase rule, P-V, P-T, T-V, T-S, H-S
+diagrams, PVT surfaces. Thermodynamic properties of steam. Calculations of work done and heat
+transfer in non- flow and flow processes."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 5:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Power Cycles- Vapour and combined power cycles, including the Carnot vapor cycle,
+Rankine cycle: the ideal cycle for vapor power, the ideal reheat and regenerative and the secondlaw
+analysis of vapour power cycles. Gas power cycles, including basic considerations in the
+analysis of power cycles, the Carnot cycle and its value in engineering, an overview of reciprocating
+engines, air standard assumptions, gasoline engine Otto cycle, diesel engine cycle, gas-turbine
+Brayton cycle, and the second-law analysis of gas power cycles"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 6:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Ideal and Real Gases and Thermodynamic Relations- Gas mixtures – properties ideal and
+real gases. Equation of state, Avogadro’s Law, Vander Waal’s equation of state, Compressibility
+factor, compressibility chart. Dalton’s law of partial pressure. Exact differentials, T-D relations,
+Maxwell’s relations. Clausius Clapeyron equations, Joule – Thomson coefficient."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="Module 7:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn1txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Psychrometry and psychrometric charts, property calculations of air vapour mixtures.
+Psychrometric process – Sensible heat exchange processes. Latent heat exchange processes.
+Adiabatic mixing, evaporative cooling. Use of standard thermodynamic tables, Mollier diagram,
+Psychometric chart and Refrigerant property tables. Refrigeration cycles, including refrigerators
+and heat pumps, the ideal reversed Carnot vapour-compression refrigeration cycle, actual vaporcompression
+refrigeration cycles, heat pump systems, gas refrigeration cycles, and absorption
+refrigeration systems."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
             </LinearLayout>
@@ -77,8 +268,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
+                    android:fontFamily="@font/bold"
+                    android:text="Credit : 3"
+                    android:textColor="@color/colorPrimary"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
@@ -88,11 +280,240 @@
                     android:id="@+id/btn2txt2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:text= "Module 1:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction-Branches of geology useful to civil engineering, scope of geological studies
+in various civil engineering projects. Department dealing with this subject in India and their scope
+of work- GSI, Granite Dimension Stone Cell, NIRM. Mineralogy-Mineral, Origin and composition.
+Physical properties of minerals, susceptibility of minerals to alteration, basic of optical mineralogy,
+SEM, XRD., Rock forming minerals, megascopic identification of common primary and secondary
+minerals."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Petrology-Rock forming processes. Specific gravity of rocks. Ternary diagram. Igneous
+petrology- Volcanic Phenomenon and different materials ejected by volcanoes. Types of volcanic
+eruption. Concept of Hot spring and Geysers. Characteristics of different types of magma. Division
+of rock on the basis of depth of formation, and their characteristics. Chemical and Mineralogical
+Composition. Texture and its types. Various forms of rocks. IUGS Classification of phaneritic and
+volcanic rock.. Field Classification chart. Structures. Classification of Igneous rocks on the basis of
+Chemical composition. Detailed study of Acidic Igneous rocks like Granite, Rhyolite or Tuff, Felsite,
+Pegmatite, Hornfels. Metamorphic Aureole, Kaolinization. Landform as Tors. Engineering aspect to
+granite. Basic Igneous rocks Like Gabbro, Dolerite, Basalt. Engineering aspect to Basalt.
+Sedimentary petrology- mode of formation, Mineralogical Composition. Texture and its types,
+Structures, Gradation of Clastic rocks. Classification of sedimentary rocks and their characteristics.
+Detailed study of Conglomerate, Breccia, Sandstone, Mudstone and Shale, Limestone Metamorphic
+petrology- Agents and types of metamorphism, metamorphic grades, Mineralogical composition,
+structures and textures in metamorphic rocks. Important Distinguishing features of rocks as Rock
+cleavage, Schistosity, Foliation. Classification. Detailed study of Gneiss, Schist, Slate with
+engineering consideration."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module3:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Physical Geology- Weathering. Erosion and Denudation. Factors affecting weathering
+and product of weathering. Engineering consideration. Superficial deposits and its geotechnical
+importance: Water fall and Gorges, River meandering, Alluvium, Glacial deposits, Laterite
+(engineering aspects), Desert Landform, Loess, Residual deposits of Clay with flints, Solifluction
+deposits, mudflows, Coastal deposits."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Strength Behavior of Rocks- Stress and Strain in rocks. Concept of Rock Deformation and
+Tectonics. Dip and Strike. Outcrop and width of outcrop. Inliers and Outliers. Main types of
+discontinuities according to size. Fold- Types and nomenclature, Criteria for their recognition in
+field. Faults: Classification, recognition in field, effects on outcrops. Joints and Unconformity; Types,
+Stresses responsible, geotechnical importance. Importance of structural elements in engineering
+operations. Consequences of failure as land sliding, Earthquake and Subsidence. Strength of
+Igneous rock structures."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Geological Hazards- Rock Instability and Slope movement: Concept of sliding blocks.
+Different controlling factors. Instability in vertical rock structures and measures to prevent collapse.
+Types of landslide. Prevention by surface drainage, slope reinforcement by Rock bolting and Rock
+anchoring, retaining wall, Slope treatment. Case study on black clay. Ground water: Factors
+controlling water bearing capacity of rock. Pervious and impervious rocks and ground water.
+Lowering of water table and Subsidence. Earthquake: Magnitude and intensity of earthquake.
+Seismic sea waves. Revelation from Seismic Records of structure of earth. Case Study on Elevation
+and Subsidence in Himalayan region in India. Seismic Zone in India."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 6:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Rock masses as construction material: Definition of Rock masses. Main features
+constituting rock mass. Main features that affects the quality of rock engineering and design. Basic
+element and structures of rock those are relevant in civil engineering areas. Main types of works
+connected to rocks and rock masses. Important variables influencing rock properties and behavior
+such as Fresh rock Influence from some minerals. Effect of alteration and weathering.
+Measurement of velocity of sound in rock. Classification of Rock material strength. Core logging
+.Rock Quality Designation. Rock mass description."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 7:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Geology of dam and reservoir site- Required geological consideration for selecting dam
+and reservoir site. Failure of Reservoir. Favorable and unfavorable conditions in different types of
+rocks in presence of various structural features, precautions to be taken to counteract unsuitable
+conditions, significance of discontinuities on the dam site and treatment giving to such structures."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 8:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Rock Mechanics- Sub surface 9nvestigations in rocks and engineering characteristics or
+rocks masses; Structural geology of rocks. Classification of rocks, Field and laboratory tests on rocks,
+Stress deformation of rocks, Failure theories and sheer strength of rocks, Bearing capacity of rocks."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -122,7 +543,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 2"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -134,12 +556,138 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction - Concepts and definitions: disaster, hazard, vulnerability, risks- severity,
+frequency and details, capacity, impact, prevention, mitigation)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Disasters - Disasters classification; natural disasters (floods, draught, cyclones, volcanoes,
+earthquakes, tsunami, landslides, coastal erosion, soil erosion, forest fires etc.); manmade disasters
+(industrial pollution, artificial flooding in urban areas, nuclear radiation, chemical spills,
+transportation accidents, terrorist strikes, etc.); hazard and vulnerability profile of India, mountain
+and coastal areas, ecological fragility."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Disaster Impacts - Disaster impacts (environmental, physical, social, ecological,
+economic, political, etc.); health, psycho-social issues; demographic aspects (gender, age, special
+needs); hazard locations; global and national disaster trends; climate change and urban disasters"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Disaster Risk Reduction (DRR) - Disaster management cycle – its phases; prevention,
+mitigation, preparedness, relief and recovery; structural and non-structural measures; risk analysis,
+vulnerability and capacity assessment; early warning systems, Postdisaster environmental response
+(water, sanitation, food safety, waste management, disease control, security, communications);
+Roles and responsibilities of government, community, local institutions, NGOs and other
+stakeholders; Policies and legislation for disaster risk reduction, DRR programmes in India and the
+activities of National Disaster Management Authority."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn3txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Disasters, Environment and Development - Factors affecting vulnerability such as impact
+of developmental projects and environmental modifications (including of dams, landuse changes,
+urbanization etc.), sustainable and environmental friendly recovery; reconstruction and
+development methods."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>
@@ -165,8 +713,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 4"
+                    android:textColor="@color/colorPrimary"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
@@ -176,11 +725,220 @@
                     android:id="@+id/btn4txt2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Basic Concepts and Definitions – Distinction between a fluid and a solid;
+Density, Specific weight, Specific gravity, Kinematic and dynamic viscosity; variation of viscosity
+with temperature, Newton law of viscosity; vapour pressure, boiling point, cavitation; surface
+tension, capillarity, Bulk modulus of elasticity, compressibility"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Fluid Statics - Fluid Pressure: Pressure at a point, Pascals law, pressure variation with
+temperature, density and altitude. Piezometer, U-Tube Manometer, Single Column Manometer,
+U-Tube Differential Manometer, Micromanometers. pressure gauges, Hydrostatic pressure
+and force: horizontal, vertical and inclined surfaces. Buoyancy and stability of floating bodies"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Fluid Kinematics- Classification of fluid flow : steady and unsteady flow; uniform and
+non-uniform flow; laminar and turbulent flow; rotational and irrotational flow; compressible
+and incompressible flow; ideal and real fluid flow; one, two and three dimensional flows;
+Stream line, path line, streak line and stream tube; stream function, velocity potential function.
+One-, two- and three -dimensional continuity equations in Cartesian coordinates"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Fluid Dynamics- Surface and body forces; Equations of motion - Euler’s equation;
+Bernoulli’s equation – derivation; Energy Principle; Practical applications of Bernoulli’s equation
+: venturimeter, orifice meter and pitot tube; Momentum principle; Forces exerted by fluid flow
+on pipe bend; Vortex Flow – Free and Forced;
+Dimensional Analysis and Dynamic Similitude - Definitions of Reynolds Number, Froude
+Number, Mach Number, Weber Number and Euler Number; Buck ingham’s π-Theorem."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module5"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Laminar Flow-Laminar flow through :circular pipes, annulus and parallel plates. Stoke’s
+law, Measurement of viscosity"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module6"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Dimensional Analysis and Hydraulic Similitude: Dimensional homogeneity, Rayleigh
+method, Buckingham’s Pi method and other methods. Dimensionless groups. Similitude, Model
+studies, Types of models. Application of dimensional analysis and model
+Studies to fluid flow problem. Dynamic Similitude- Definitions of ReynoldsNumber, Froude
+Number, MachNumber, Weber Number and EulerNumber"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module7"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Flow through Pipes:Loss of head through pipes,Darcy-Wiesbatch equation, minor
+losses, total energy equation, hydraulic gradient line,Pipes in series, equivalent pipes, pipes in
+parallel, flow through laterals, flows in dead end pipes, siphon, power transmission through
+pipes, nozzles. Analysis of pipe networks: Hardy Cross method, water hammer in pipes and
+control measures, branching of pipes, three reservoir problem"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module8"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Turbulent Flow- Reynolds experiment, Transition from laminar to turbulent flow.
+Definition of turbulence, scale and intensity, Causes of turbulence, instability, mechanism of
+turbulence and effect of turbulent flow in pipes. Reynolds stresses, semi-empirical theories of
+turbulence, Prandtl’s mixing length theory, universal velocity distribution equation.
+Resistance to flow of fluid in smooth and rough pipes, Moody’s diagram"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/colorPrimary"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -209,7 +967,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -221,10 +980,213 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Simple Stresses and Strains- Concept of stress and strain, St. Venant’s principle, stress
+and strain diagram, Elasticity and plasticity – Types of stresses and strains, Hooke’s law – stress –
+strain diagram for mild steel – Working stress – Factor of safety – Lateral strain, Poisson’s ratio and
+volumetric strain – Elastic moduli and the relationship between them – Bars of varying section –
+composite bars – Temperature stresses. Strain Energy – Resilience – Gradual, sudden, impact and
+shock loadings – simple applications."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Compound Stresses and Strains- Two dimensional system, stress at a point on a plane,
+principal stresses and principal planes, Mohr circle of stress, ellipse of stress and their applications.
+Two dimensional stress-strain system, principal strains and principal axis of strain, circle of strain
+and ellipse of strain. Relationship between elastic constants."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Bending moment and Shear Force Diagrams- Bending moment (BM) and shear force (SF)
+diagrams.BM and SF diagrams for cantilevers simply supported and fixed beams with or without
+overhangs. Calculation of maximum BM and SF and the point of contra flexure under concentrated
+loads, uniformly distributed loads over the whole span or part of span, combination of concentrated loads (two or three) and uniformly distributed loads, uniformly varying loads,
+application of moments."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Flexural Stresses-Theory of simple bending – Assumptions – Derivation of bending
+equation: M/I = f/y = E/R - Neutral axis – Determination of bending stresses – Section modulus of
+rectangular and circular sections (Solid and Hollow), I,T, Angle and Channel sections – Design of
+simple beam sections."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Shear Stresses- Derivation of formula – Shear stress distribution across various beam
+sections like rectangular, circular, triangular, I, T angle sections"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 6"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Slope and deflection- Relationship between moment, slope and deflection, Moment area
+method, Macaulay’s method. Use of these methods to calculate slope and deflection for
+determinant beams."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 7"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Torsion- Derivation of torsion equation and its assumptions. Applications of the equation
+of the hollow and solid circular shafts, torsional rigidity, Combined torsion and bending of circular
+shafts, principal stress and maximum shear stresses under combined loading of bending and
+torsion. Analysis of close-coiled-helical springs."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 8"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn5txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Thin Cylinders and Spheres- Derivation of formulae and calculations of hoop stress,
+longitudinal stress in a cylinder, and sphere subjected to internal pressures."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -251,8 +1213,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
-                    android:textColor="@color/black"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 4"
+                    android:textColor="@color/colorPrimary"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
@@ -263,10 +1226,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
-                    android:textColor="@color/black"
+                    android:text= "Analysis of indeterminate structures by force methods, flexibility coefficients, Energy methods:
+Principle of minimum potential energy, principle of virtual work, Castigliano’s theorems, Reciprocal
+theorem, unit load method, Influence line and Rolling loads, beam, frames and arches, Muller-
+Breslau Principles and its applications to determinate and indeterminate structures.
+Analysis of Beams and Frames: Moment Area method, Slope deflection method, Three Moment
+Equation, Moments distribution methods, effect of symmetry and ant symmetry, sway correction,
+Lateral load analysis: Portal and Cantilever methods, Matrix method of structural analysis,
+Displacement/Stiffness methods."
+                    android:textColor="@color/colorPrimary"
                     android:textFontWeight="700"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -293,7 +1263,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 3"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -305,10 +1276,89 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction to Engineering Materials covering, Cements, M-Sand, Concrete
+(plain, reinforced and steel fibre/ glass fibre-reinforced, light-weight concrete, High
+Performance Concrete, Polymer Concrete) Ceramics, and Refractories, Bitumen and asphaltic
+materials, Timbers, Glass and Plastics, Structural Steel and other Metals, Paints and
+Varnishes, Acoustical material and geo-textiles, rubber and asbestos, laminates and
+adhesives, Graphene, Carbon composites and other engineering materials including
+properties and uses of these"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction to Material Testing covering, What is the “ Material Engineering” ?;
+Mechanical behavior and mechanical characteristics; Elasticity – principle and
+characteristics; Plastic deformation of metals; Tensile test – standards for different material
+(brittle, quasi-brittle, elastic and so on) True stress – strain interpretation of tensile test;
+hardness tests; Bending and torsion test; strength of ceramic; Internal friction, creep –
+fundaments and characteristics; Brittle fracture of steel – temperature transition approach;
+Background of fracture mechanics; Discussion of fracture toughness testing – different materials;
+concept of fatigue of materials; Structural integrity assessment procedure and fracture
+mechanics"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn7txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Standard Testing and Evaluation Procedures covering, Laboratory for mechanical
+testing; Discussion about mechanical testing; Naming systems for various irons, steels and
+nonferrous metals; Discussion about elastic deformation; Plastic deformation; Impact test and
+transition temperatures; Fracture mechanics – background; Fracture toughness – different
+materials; Fatigue of material; Creep."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -335,7 +1385,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 2"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -347,12 +1398,303 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1:"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction to Course and Overview; Understanding the past to look into the future:
+Pre-industrial revolution days, Agricultural revolution, first and second industrial revolutions, IT
+revolution; Recent major Civil Engineering breakthroughs and innovations; Present day world and
+future projections, Ecosystems in Society and in Nature; the steady erosion in Sustainability; Global
+warming, its impact and possible causes; Evaluating future requirements for various resources; GIS
+and applications for monitoring systems; Human Development Index and Ecological Footprint of
+India Vs other countries and analysis;"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Understanding the importance of Civil Engineering in shaping and impacting the world;
+The ancient and modern Marvels and Wonders in the field of Civil Engineering; Future Vision for
+Civil Engineering"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Infrastructure - Habitats, Megacities, Smart Cities, futuristic visions; Transportation
+(Roads, Railways and Metros, Airports, Seaports, River ways, Sea canals, Tunnels (below ground,
+under water); Futuristic systems (ex, Hyper Loop)); Energy generation (Hydro, Solar (Photovoltaic, Solar Chimney), Wind, Wave, Tidal, Geothermal, Thermal energy); Water provisioning;
+Telecommunication needs (towers, above-ground and underground cabling); Awareness of various
+Codes and Standards governing Infrastructure development; Innovations and methodologies for
+ensuring Sustainability; "
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Environment- Traditional and futuristic methods; Solid waste management, Water
+purification, Wastewater treatment and Recycling, Hazardous waste treatment; Flood control (Dams,
+Canals, River interlinking), Multi-purpose water projects, Atmospheric pollution; Global warming
+phenomena and Pollution Mitigation measures, Stationarity and nonstationarity; Environmental
+Metrics and Monitoring; Other Sustainability measures; Innovations and methodologies for ensuring
+Sustainability."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 5:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Built environment – Facilities management, Climate control; Energy efficient built
+environments and LEED ratings, Recycling, Temperature/ Sound control in built environment,
+Security systems; Intelligent/ Smart Buildings; Aesthetics of built environment, Role of Urban Arts
+Commissions; Conservation, Repairs and Rehabilitation of Structures and Heritage structures;
+Innovations and methodologies for ensuring Sustainability"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 6:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Civil Engineering Projects – Environmental Impact Analysis procedures; Waste
+(materials, manpower, equipment) avoidance/ Efficiency increase; Advanced construction
+techniques for better sustainability; Techniques for reduction of Green House Gas emissions in
+various aspects of Civil Engineering Projects; New Project Management paradigms and Systems (Ex.
+Lean Construction), contribution of Civil Engineering to GDP, Contribution to employment(projects,
+facilities management), Quality of products, Health and Safety aspects for stakeholders; Innovations
+and methodologies for ensuring Sustainability during Project development;"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 7A:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Population Dynamics covering, Population ecology- Population characteristics,
+ecotypes; Population genetics- Concept of gene pool and genetic diversity in populations,
+polymorphism and heterogeneity;"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 8B:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Environmental Management covering, Principles: Perspectives, concerns and
+management strategies; Policies and legal aspects- Environment Protection Acts and modification,
+International Treaties; Environmental Impact Assessment- Case studies"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 9A:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Molecular Genetics covering, Structures of DNA and RNA; Concept of Gene, Gene
+regulation, e.g., Operon concept;"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 9B:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Biotechnology covering, Basic concepts: Totipotency and Cell manipulation; Plant and
+Animal tissue culture- Methods and uses in agriculture, medicine and health; Recombinant DNA
+Technology- Techniques and applications"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 10A:"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn8txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Biostatistics covering, Introduction to Biostatistics:-Terms used, types of data;
+Measures of Central Tendencies- Mean, Median, Mode, Normal and Skewed distributions; Analysis
+of Data- Hypothesis testing and ANNOVA (single factor)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
 
 
             </LinearLayout>

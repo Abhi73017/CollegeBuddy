@@ -77,7 +77,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text="Credits : 5.5"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="SEMICONDUCTOR OPTOELECTRONICS"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
@@ -89,10 +102,281 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: REVIEW OF SEMICONDUCTOR PHYSICS"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "E-K DIAGRAM, DENSITY OF STATES, OCCUPATION PROBABILITY, FERMI LEVEL AND
+QUASI-FERMI LEVEL (VARIATION BY CARRIER CONCENTRATION AND TEMPERATURE); P-N
+JUNCTION, METAL-SEMICONDUCTOR JUNCTION (OHMIC AND SCHOTTKY); CARRIER
+TRANSPORT, GENERATION, AND RECOMBINATION; SEMICONDUCTOR MATERIALS OF
+INTEREST FOR OPTOELECTRONIC DEVICES, BANDGAP MODIFICATION, HETEROSTRUCTURES;
+LIGHT- SEMICONDUCTOR INTERACTION: RATES OF OPTICAL TRANSITIONS, JOINT
+DENSITY OF STATES, CONDITION FOR OPTICAL AMPLIFICATION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: SEMICONDUCTOR LIGHT EMITTING DIODES (LEDS)"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "RATE EQUATIONS FOR CARRIER DENSITY, RADIATIVE AND NON-RADIATIVE
+RECOMBINATION MECHANISMS IN SEMICONDUCTORS, LED: DEVICE STRUCTURE, MATERIALS,
+CHARACTERISTICS, AND FIGURES OF MERIT."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: SEMICONDUCTOR LASERS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "REVIEW OF LASER PHYSICS; RATE EQUATIONS FOR CARRIER- AND PHOTON-DENSITY,
+AND THEIR STEADY STATE SOLUTIONS, LASER DYNAMICS, RELAXATION OSCILLATIONS,
+INPUT-OUTPUT CHARACTERISTICS OF LASERS. SEMICONDUCTOR LASER: STRUCTURE,
+MATERIALS, DEVICE CHARACTERISTICS, AND FIGURES OF MERIT; DFB, DBR, AND VERTICALCAVITY
+SURFACE-EMITTING LASERS (VECSEL), TUNABLE SEMICONDUCTOR LASERS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: PHOTODETECTORS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "TYPES OF SEMICONDUCTOR PHOTODETECTORS -P-N JUNCTION, PIN, AND AVALANCHE
+AND THEIR STRUCTURE, MATERIALS, WORKING PRINCIPLE, AND CHARACTERISTICS, NOISE
+LIMITS ON PERFORMANCE; SOLAR CELLS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: LOW-DIMENSIONAL OPTOELECTRONIC DEVICES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "QUANTUM-WELL, -WIRE, AND -DOT BASED LEDS, LASERS, AND PHOTODETECTORS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="SEMICONDUCTOR PHYSICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 1: ELECTRONIC MATERIALS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "FREE ELECTRON THEORY, DENSITY OF STATES AND ENERGY BAND DIAGRAMS, KRONIGPENNY
+MODEL (TO INTRODUCE ORIGIN OF BAND GAP), ENERGY BANDS IN SOLIDS,
+E-K DIAGRAM, DIRECT AND INDIRECT BANDGAPS, TYPES OF ELECTRONIC MATERIALS:
+METALS, SEMICONDUCTORS, AND INSULATORS, DENSITY OF STATES, OCCUPATION
+PROBABILITY, FERMI LEVEL, EFFECTIVE MASS, PHONONS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: SEMICONDUCTORS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "INTRINSIC AND EXTRINSIC SEMICONDUCTORS, DEPENDENCE OF FERMI LEVEL ON
+CARRIER-CONCENTRATION AND TEMPERATURE (EQUILIBRIUM CARRIER STATISTICS), CARRIER
+GENERATION AND RECOMBINATION, CARRIER TRANSPORT: DIFFUSION AND DRIFT, P-N
+JUNCTION, METAL-SEMICONDUCTOR JUNCTION (OHMIC AND SCHOTTKY), SEMICONDUCTOR
+MATERIALS OF INTEREST FOR OPTOELECTRONIC DEVICES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: LIGHT-SEMICONDUCTOR INTERACTION"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "OPTICAL TRANSITIONS IN BULK SEMICONDUCTORS: ABSORPTION, SPONTANEOUS
+EMISSION, AND STIMULATED EMISSION; JOINT DENSITY OF STATES, DENSITY OF STATES
+FOR PHOTONS, TRANSITION RATES (FERMI'S GOLDEN RULE), OPTICAL LOSS AND GAIN;
+PHOTOVOLTAIC EFFECT, EXCITON, DRUDE MODEL."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: MEASUREMENTS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "FOUR-POINT PROBE AND VAN DER PAUW MEASUREMENTS FOR CARRIER DENSITY,
+RESISTIVITY, AND HALL MOBILITY; HOT-POINT PROBE MEASUREMENT,
+CAPACITANCE-VOLTAGE MEASUREMENTS, PARAMETER EXTRACTION FROM DIODE I-V
+CHARACTERISTICS, DLTS, BAND GAP BY UV-VIS SPECTROSCOPY, ABSORPTION/TRANSMISSION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: ENGINEERED SEMICONDUCTOR MATERIALS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn2txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "DENSITY OF STATES IN 2D, 1D AND 0D (QUALITATIVELY). PRACTICAL EXAMPLES OF LOWDIMENSIONAL
+SYSTEMS SUCH AS QUANTUM WELLS, WIRES, AND DOTS: DESIGN, FABRICATION,
+AND CHARACTERIZATION TECHNIQUES. HETEROJUNCTIONS AND ASSOCIATED BAND-DIAGRAMS"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -165,24 +449,177 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
+                    android:text="Credits : 4"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
-
                 <TextView
                     android:id="@+id/btn4txt2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "MODULE 1: BASIC PROBABILITY"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "PROBABILITY SPACES, CONDITIONAL PROBABILITY, INDEPENDENCE; DISCRETE
+RANDOM VARIABLES, INDEPENDENT RANDOM VARIABLES, THE MULTINOMIAL DISTRIBUTION,
+POISSON APPROXIMATION TO THE BINOMIAL DISTRIBUTION, INFINITE SEQUENCES OF
+BERNOULLI TRIALS, SUMS OF INDEPENDENT RANDOM VARIABLES; EXPECTATION OF DISCRETE
+RANDOM VARIABLES, MOMENTS, VARIANCE OF A SUM, CORRELATION COEFFICIENT,
+CHEBYSHEV'S INEQUALITY."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 2: CONTINUOUS PROBABILITY DISTRIBUTIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CONTINUOUS RANDOM VARIABLES AND THEIR PROPERTIES, DISTRIBUTION FUNCTIONS
+AND DENSITIES, NORMAL, EXPONENTIAL AND GAMMA DENSITIES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 3: BIVARIATE DISTRIBUTIONS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "BIVARIATE DISTRIBUTIONS AND THEIR PROPERTIES, DISTRIBUTION OF SUMS AND
+QUOTIENTS, CONDITIONAL DENSITIES, BAYES' RULE."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 4: BASIC STATISTICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "MEASURES OF CENTRAL TENDENCY: MOMENTS, SKEWNESS AND KURTOSIS - PROBABILITY
+DISTRIBUTIONS: BINOMIAL, POISSON AND NORMAL - EVALUATION OF STATISTICAL
+PARAMETERS FOR THESE THREE DISTRIBUTIONS, CORRELATION AND REGRESSION – RANK
+CORRELATION."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 5: APPLIED STATISTICS"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "CURVE FITTING BY THE METHOD OF LEAST SQUARES- FITTING OF STRAIGHT LINES,
+SECOND DEGREE PARABOLAS AND MORE GENERAL CURVES. TEST OF SIGNIFICANCE: LARGE
+SAMPLE TEST FOR SINGLE PROPORTION,DIFFERENCE OF PROPORTIONS, SINGLE MEAN,
+DIFFERENCE OF MEANS AND DIFFERENCE OF STANDARD DEVIATIONS."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "MODULE 6: SMALL SAMPLES"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn4txt13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "TEST FOR SINGLE MEAN, DIFFERENCE OF MEANS AND CORRELATION COEFFICIENTS,
+TEST FOR RATIO OF VARIANCES - CHI-SQUARE TEST FOR GOODNESS OF FIT AND
+INDEPENDENCE OF ATTRIBUTES."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
 
 
             </LinearLayout>
