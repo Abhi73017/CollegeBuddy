@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:scrollbars="horizontal">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:padding="15dp"
+            android:text="About Us"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="35sp">
+        </TextView>
+
+        <TextView android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:text="Dev Dragger is a newly established Software firm currently consisting two working members 'Abhishek' And 'Vikash'. Our Main aim is provide possible digital solutions for all problems in educational era and daily life. With College Buddy, We provide you a platform to learn and manage your academics at a place."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+        <TextView android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp"
+            android:text="All members of Dev Dragger firm are currently studying in different fields of engineering. All members are well versed in programming and designing."
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="22sp">
+        </TextView>
+
+    </LinearLayout>
+</ScrollView>

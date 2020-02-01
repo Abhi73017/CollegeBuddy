@@ -14,12 +14,14 @@ import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
 import android.app.AlertDialog
+import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.GoogleAuthProvider
 import dmax.dialog.SpotsDialog
 import kotlinx.android.synthetic.main.activity_login.*
 
 
-class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
+class login : AppCompatActivity() , GoogleApiClient.OnConnectionFailedListener{
+
 
     companion object {
         private val PERMISSION_CODE = 9999
@@ -82,6 +84,11 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
 
         google_sign_in.setOnClickListener {
             SignIn()
+
+            fb_sign_in.setOnClickListener {
+                Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
+            }
+
         }
 
     }
@@ -112,6 +119,7 @@ class login : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener {
     override fun onConnectionFailed(p0: ConnectionResult) {
         Toast.makeText(this, "" + p0.errorMessage, Toast.LENGTH_SHORT).show()
     }
+
 
 
 }

@@ -928,9 +928,10 @@ variances - Chi-square test for goodness of fit and independence of attributes."
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
+                    android:text="Credits : 3"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -940,10 +941,130 @@ variances - Chi-square test for goodness of fit and independence of attributes."
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:fontFamily="@font/bold"
+                    android:text= "Module 1: Engineering Economics"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
                     android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn6txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text= "Introduction to Engineering Economics - Fundamental Concepts - Time value of money  -Cash flow and time Diagrams - Choosing between alternative invstment proposals."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 2: Capital Budgeting"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn6txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Methods of Economic analysis (Pay back, ARR, NPV, IRR and B/C ratio). Depreciation and methods of
+calculating depreciation (Straight line, Sum of the years digit method, Declining Balance Method, Annuity Method
+Sinking Fund Method)"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/btn6txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 3: Indian economy and Economic Development"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="NAtional INcome Accounting - Methods of estimation -VArious Concepts of National INcome - Significance of
+NAtional INcome Estimation and limitations. INflation: Definintion - Measures to control (Monetary and Fiscal Policy).
+New Economic Policy 1991 Breakeven Analysis - MEaning and its application, Limitations"
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text= "Module 4: Financial Accounting"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Accoutning Principle, procedure-Double entry system - Journal, ledger, TRial balance - Cash book  -Preparation of
+Trading and profit and Loss account - Balance sheet. Cost accounting  -Introduction - Classification of costs - Methods of Costing  - Techniques of Costing. E-Commerce: IMportance and Need."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:textColor="@color/black"
+                    android:text= "Module 5: Managerial Economics"
+                    android:textFontWeight="700"
+                    android:textSize="20sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/btn6txt11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:text="Scope of MAnagerial Economics: Thoery of Demand and Theory of Supply, Law of Demand and law of supply. TEchniques of managerial Economics. Theory of firm. Thoery of Market Structure. Applications of Managerial Economics."
+                    android:textAlignment="gravity"
+                    android:textColor="@color/black"
+                    android:textFontWeight="700"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -1260,9 +1381,10 @@ Sterilization and media compositions. Growth kinetics."
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text="@string/demotext"
+                    android:fontFamily="@font/bold"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
+                    android:text="Credit : 0"
                     android:textSize="20sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
@@ -1272,10 +1394,10 @@ Sterilization and media compositions. Growth kinetics."
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
-                    android:text= "@string/demotext"
+                    android:text= "Syllabus Not Avilable"
                     android:textColor="@color/black"
                     android:textFontWeight="700"
-                    android:textSize="20sp"
+                    android:textSize="15sp"
                     android:visibility="visible"
                     app:layout_constraintStart_toStartOf="parent" />
 

@@ -7,7 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.abhishek.collegebuddy.R
+import com.abhishek.collegebuddy.developers
 import com.abhishek.collegebuddy.syllabus
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_home.view.*
 
 class fragment_home : Fragment(){
@@ -23,6 +25,32 @@ class fragment_home : Fragment(){
         view.btn_syllabus.setOnClickListener { view ->
             println("clicked")
             val intent = Intent (getActivity(), syllabus::class.java)
+            getActivity()?.startActivity(intent)
+        }
+
+        view.btn_notes.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.btn_que_bank.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.btn_articles.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.btn_pro.setOnClickListener { view ->
+
+            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+        }
+
+        view.btn_dev.setOnClickListener { view ->
+            println("clicked")
+            val intent = Intent (getActivity(), developers::class.java)
             getActivity()?.startActivity(intent)
         }
         return view

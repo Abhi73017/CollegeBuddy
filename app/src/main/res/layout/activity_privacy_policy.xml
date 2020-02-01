@@ -15,6 +15,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/bold"
+                android:padding="15dp"
                 android:text="Privacy Policy"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
@@ -25,6 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:padding="15dp"
                 android:text="Dev Dragger built the College Buddy app as a Free app. This SERVICE is provided by Dev
 Dragger at no cost and is intended for use as is."
                 android:textSize="20sp">
@@ -35,6 +37,7 @@ Dragger at no cost and is intended for use as is."
                 android:layout_height="wrap_content"
                 android:text="This page is used to inform visitors regarding our policies with the collection, use, and disclosure
 of Personal Information if anyone decided to use our Service."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -45,6 +48,7 @@ of Personal Information if anyone decided to use our Service."
 relation to this policy. The Personal Information that we collect is used for providing and
 improving the Service. We will not use or share your information with anyone except as
 described in this Privacy Policy."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -53,6 +57,7 @@ described in this Privacy Policy."
                 android:layout_height="wrap_content"
                 android:text="The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
 which is accessible at College Buddy unless otherwise defined in this Privacy Policy."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -63,6 +68,7 @@ which is accessible at College Buddy unless otherwise defined in this Privacy Po
                 android:fontFamily="@font/bold"
                 android:text="Information Collection and Use"
                 android:textColor="@color/black"
+                android:padding="15dp"
                 android:textSize="22sp">
             </TextView>
 
@@ -73,6 +79,7 @@ which is accessible at College Buddy unless otherwise defined in this Privacy Po
                 android:text="For a better experience, while using our Service, we may require you to provide us with certain
 personally identifiable information, including but not limited to Email IDs. The information that we request will be retained by us and used as described in this privacy policy. The app does use third party services that may collect information used to identify you.
  You can go and CHeck the privacy policies of those third parties services if you want to. The names of the third party services we use are - 'GOOGLE PLAY SERVICES','ADMOB','FIREBASE ANALYTICS' and 'FIREBASE CRASHLYTICS'"
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -81,6 +88,7 @@ personally identifiable information, including but not limited to Email IDs. The
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/bold"
+                android:padding="15dp"
                 android:text="Log Data"
                 android:textColor="@color/black"
                 android:textSize="22sp">
@@ -90,6 +98,7 @@ personally identifiable information, including but not limited to Email IDs. The
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="We want to inform you that whenever you use our Service, in a case of an error in the app we
 collect data and information (through third party products) on your phone called Log Data. This
 Log Data may include information such as your device Internet Protocol (“IP”) address, device
@@ -102,6 +111,7 @@ and date of your use of the Service, and other statistics."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:padding="15dp"
                 android:fontFamily="@font/bold"
                 android:text="Cookies"
                 android:textColor="@color/black"
@@ -112,6 +122,7 @@ and date of your use of the Service, and other statistics."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="Cookies are files with a small amount of data that are commonly used as anonymous unique
 identifiers. These are sent to your browser from the websites that you visit and are stored on your
 device's internal memory."
@@ -121,6 +132,7 @@ device's internal memory."
             <TextView android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:text="This Service does not use these “cookies” explicitly. However, the app may use third party code
 and libraries that use “cookies” to collect information and improve their services. You have the
 option to either accept or refuse these cookies and know when a cookie is being sent to your
@@ -132,6 +144,7 @@ Service."
             <TextView android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/bold"
                 android:text="Service Providers"
@@ -142,6 +155,7 @@ Service."
             <TextView android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="15dp"
                 android:layout_marginTop="20dp"
                 android:text="We may employ third-party companies and individuals due to the following reasons:"
                 android:textSize="20sp">
@@ -151,6 +165,7 @@ Service."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="* To facilitate our Service;"
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -158,6 +173,7 @@ Service."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="* To provide the Service on our behalf;"
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -165,6 +181,7 @@ Service."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="* To perform Service-related services; or"
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -172,6 +189,7 @@ Service."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="* To assist us in analyzing how our Service is used."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -181,6 +199,7 @@ Service."
                 android:text="We want to inform users of this Service that these third parties have access to your Personal
 Information. The reason is to perform the tasks assigned to them on our behalf. However, they
 are obligated not to disclose or use the information for any other purpose."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -191,6 +210,7 @@ are obligated not to disclose or use the information for any other purpose."
                 android:fontFamily="@font/bold"
                 android:text="Security"
                 android:textColor="@color/black"
+                android:padding="15dp"
                 android:textSize="22sp">
             </TextView>
 
@@ -202,6 +222,7 @@ are obligated not to disclose or use the information for any other purpose."
 commercially acceptable means of protecting it. But remember that no method of transmission
 over the internet, or method of electronic storage is 100% secure and reliable, and we cannot
 guarantee its absolute security."
+                android:padding="15dp"
                 android:textSize="20sp">
             </TextView>
 
@@ -211,6 +232,7 @@ guarantee its absolute security."
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/bold"
                 android:text="Links to Other Sites"
+                android:padding="15dp"
                 android:textColor="@color/black"
                 android:textSize="22sp">
             </TextView>
@@ -219,6 +241,7 @@ guarantee its absolute security."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="This Service may contain links to other sites. If you click on a third-party link, you will be directed
 to that site. Note that these external sites are not operated by us. Therefore, we strongly advise
 you to review the Privacy Policy of these websites. We have no control over and assume no
@@ -231,6 +254,7 @@ responsibility for the content, privacy policies, or practices of any third-part
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/bold"
+                android:padding="15dp"
                 android:text="Changes to This Privacy Policy"
                 android:textColor="@color/black"
                 android:textSize="22sp">
@@ -240,6 +264,7 @@ responsibility for the content, privacy policies, or practices of any third-part
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="We may update our Privacy Policy from time to time. Thus, you are advised to review this page
 periodically for any changes. We will notify you of any changes by posting the new Privacy Policy
 on this page. These changes are effective immediately after they are posted on this page."
@@ -250,6 +275,7 @@ on this page. These changes are effective immediately after they are posted on t
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:padding="15dp"
         android:fontFamily="@font/bold"
         android:text="Contact Us"
         android:textColor="@color/black"
@@ -260,6 +286,7 @@ on this page. These changes are effective immediately after they are posted on t
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us
 at Abhisheksingh73017@gmail.com, +919128451514."
                 android:textSize="20sp">
@@ -269,6 +296,7 @@ at Abhisheksingh73017@gmail.com, +919128451514."
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:padding="15dp"
                 android:text="                                                                                                                                                                                                                                             "
                 android:textSize="20sp">
             </TextView>

@@ -28,8 +28,8 @@ class fragment_my_account : Fragment() {
 
             // Get Logged User Email
             var User:FirebaseUser? = FirebaseAuth.getInstance().currentUser
-            val userEmail:String = User?.email.toString()
-            view.userNameorUserNametxt.setText("Hey !! $userEmail")
+            val userEmail:String? = User?.email
+            view.userNameorUserNametxt.setText(userEmail)
 
         }
 

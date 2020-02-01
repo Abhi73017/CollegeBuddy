@@ -1,79 +1,42 @@
 {
   "project_info": {
-    "project_number": "576505266077",
-    "firebase_url": "https://random-244118.firebaseio.com",
-    "project_id": "random-244118",
-    "storage_bucket": "random-244118.appspot.com"
+    "project_number": "426682016132",
+    "firebase_url": "https://college-buddy-1f74b.firebaseio.com",
+    "project_id": "college-buddy-1f74b",
+    "storage_bucket": "college-buddy-1f74b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:576505266077:android:ec9c42cb1ce3f7dc217974",
+        "mobilesdk_app_id": "1:426682016132:android:23f22ce6a9f76455663dd1",
         "android_client_info": {
           "package_name": "com.abhishek.collegebuddy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "576505266077-olnf9lgu6p7unikua3dku0b1vsf0cbob.apps.googleusercontent.com",
+          "client_id": "426682016132-lbcsbohlis5lf88rs10dgagd5h8f6ole.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.abhishek.collegebuddy",
-            "certificate_hash": "3ac1bbaecb7f3e3cadda39821ba12320eab55132"
+            "certificate_hash": "4e1119ae58399594298e5a85e072f4f768f421c6"
           }
         },
         {
-          "client_id": "576505266077-pf5upjhc1f14alv817bss7p0ug8p2rj5.apps.googleusercontent.com",
+          "client_id": "426682016132-2o8gg5k55di3eu6pgcr8eb1ce30btv6t.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjfuljvJE88LkaR21kaZtMpxKpPpqGog4"
+          "current_key": "AIzaSyBMpwKTiNooUh0HYkEgg8CZAylA0szEi_g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "576505266077-pf5upjhc1f14alv817bss7p0ug8p2rj5.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:576505266077:android:f7f2d1c2b0659ab4217974",
-        "android_client_info": {
-          "package_name": "com.aryan.fireauth"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "576505266077-snjgsp2n2b6k80jr4vglnu8206dl6vdv.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.aryan.fireauth",
-            "certificate_hash": "3ac1bbaecb7f3e3cadda39821ba12320eab55132"
-          }
-        },
-        {
-          "client_id": "576505266077-pf5upjhc1f14alv817bss7p0ug8p2rj5.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAjfuljvJE88LkaR21kaZtMpxKpPpqGog4"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "576505266077-pf5upjhc1f14alv817bss7p0ug8p2rj5.apps.googleusercontent.com",
+              "client_id": "426682016132-2o8gg5k55di3eu6pgcr8eb1ce30btv6t.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
