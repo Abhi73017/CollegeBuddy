@@ -12,7 +12,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/logo"
+        android:icon="@mipmap/launcher_logo"
         android:label="CollegeBuddy"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -50,7 +50,6 @@
         <activity android:name=".OldSyllabus.SecondSem.civil_sem2_old" />
         <activity android:name=".OldSyllabus.SecondSem.cse_sem2_old" />
         <activity android:name=".OldSyllabus.SecondSem.eee_sem2_old" />
-        <activity android:name=".OldSyllabus.SecondSem.Main2Activity" />
         <activity android:name=".NewSyllabus.FourthSem.mech_sem4_new" />
         <activity android:name=".NewSyllabus.FourthSem.civil_sem4_new" />
         <activity android:name=".NewSyllabus.FourthSem.cse_sem4_new" />
@@ -67,13 +66,9 @@
         <activity android:name=".OldSyllabus.FirstSem.eee_sem1_old" />
         <activity android:name=".OldSyllabus.FirstSem.cse_sem1_old" />
         <activity android:name=".OldSyllabus.FirstSem.civil_sem1_old" />
-        <activity android:name=".NewSyllabus.FirstSem.mech_sem1_old" />
         <activity android:name=".NewSyllabus.FirstSem.mech_sem1_new" />
-        <activity android:name=".NewSyllabus.FirstSem.civil_sem1_old" />
         <activity android:name=".NewSyllabus.FirstSem.civil_sem1_new" />
-        <activity android:name=".NewSyllabus.FirstSem.cse_sem1_old" />
         <activity android:name=".NewSyllabus.FirstSem.cse_sem1_new" />
-        <activity android:name=".NewSyllabus.FirstSem.eee_sem1_old" />
         <activity android:name=".OldSyllabus.civilold" />
         <activity android:name=".NewSyllabus.civilnew" />
         <activity android:name=".NewSyllabus.FirstSem.EEE_1st_new" />
