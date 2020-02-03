@@ -18,7 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".developers"></activity>
+        <activity android:name=".question_bank_package.question_bank"></activity>
+        <activity android:name=".developers" />
         <activity android:name=".More_activities.about_us" />
         <activity android:name=".More_activities.disclaimer" />
         <activity android:name=".More_activities.privacy_policy" />

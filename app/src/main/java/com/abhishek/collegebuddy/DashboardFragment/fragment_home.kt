@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.abhishek.collegebuddy.R
 import com.abhishek.collegebuddy.developers
+import com.abhishek.collegebuddy.question_bank_package.question_bank
 import com.abhishek.collegebuddy.syllabus
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.fragment_home.view.*
@@ -35,7 +36,9 @@ class fragment_home : Fragment(){
 
         view.btn_que_bank.setOnClickListener { view ->
 
-            Snackbar.make(view, "Coming Soon", Snackbar.LENGTH_LONG).show()
+            println("clicked")
+            val intent = Intent (getActivity(), question_bank::class.java)
+            getActivity()?.startActivity(intent)
         }
 
         view.btn_articles.setOnClickListener { view ->

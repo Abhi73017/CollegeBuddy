@@ -14,7 +14,6 @@ import com.google.android.gms.common.api.GoogleApiClient
 import com.google.firebase.auth.AuthCredential
 import com.google.firebase.auth.FirebaseAuth
 import android.app.AlertDialog
-import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.GoogleAuthProvider
 import dmax.dialog.SpotsDialog
 import kotlinx.android.synthetic.main.activity_login.*
@@ -88,9 +87,7 @@ class login : AppCompatActivity() , GoogleApiClient.OnConnectionFailedListener{
             fb_sign_in.setOnClickListener {
                 Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
             }
-
         }
-
     }
 
     private fun SignIn() {
@@ -112,14 +109,9 @@ class login : AppCompatActivity() , GoogleApiClient.OnConnectionFailedListener{
             .addApi(Auth.GOOGLE_SIGN_IN_API, options)
             .build()
         mGoogleApiClient.connect()
-
-
     }
 
     override fun onConnectionFailed(p0: ConnectionResult) {
         Toast.makeText(this, "" + p0.errorMessage, Toast.LENGTH_SHORT).show()
     }
-
-
-
 }
