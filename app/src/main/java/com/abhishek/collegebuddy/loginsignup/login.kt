@@ -84,9 +84,10 @@ class login : AppCompatActivity() , GoogleApiClient.OnConnectionFailedListener{
         google_sign_in.setOnClickListener {
             SignIn()
 
-            fb_sign_in.setOnClickListener {
-                Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
-            }
+        }
+
+        fb_sign_in.setOnClickListener {
+            Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show()
         }
     }
 
