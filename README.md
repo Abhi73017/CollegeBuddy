@@ -5,3 +5,6 @@ College Buddy Android App
 
 - Add Transtion Animation
 
+- Add follower option / Forum
+   (max follower will be shown on dashboard section)
+
