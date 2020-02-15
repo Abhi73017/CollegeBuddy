@@ -1,216 +1,388 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/question_bank_background"
-    tools:context=".question_bank_package.question_bank">
+    android:background="@drawable/dots_background"
+    android:orientation="vertical"
+    tools:context=".NewSyllabus.FirstSem.EEE_1st_new">
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/mech_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline116"
-        app:layout_constraintEnd_toStartOf="@+id/guideline107"
-        app:layout_constraintStart_toStartOf="@+id/guideline105"
-        app:layout_constraintTop_toTopOf="@+id/guideline115" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:fontFamily="@font/script_bold"
-        android:text="Choose your Branch..."
-        android:textColor="@color/colorPrimary"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline112"
-        app:layout_constraintEnd_toStartOf="@+id/guideline106"
-        app:layout_constraintStart_toStartOf="@+id/guideline105"
-        app:layout_constraintTop_toTopOf="@+id/guideline111" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/civil_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline114"
-        app:layout_constraintEnd_toStartOf="@+id/guideline107"
-        app:layout_constraintStart_toStartOf="@+id/guideline105"
-        app:layout_constraintTop_toTopOf="@+id/guideline113" />
+            <Button
+                android:id="@+id/showbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/buttoncurve"
+                android:text="Civil Engineering"
+                android:textColor="@color/white" />
+            <LinearLayout
+                android:id="@+id/btn1layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/eee_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline114"
-        app:layout_constraintEnd_toStartOf="@+id/guideline106"
-        app:layout_constraintStart_toStartOf="@+id/guideline108"
-        app:layout_constraintTop_toTopOf="@+id/guideline113" />
+                <TextView
+                    android:id="@+id/civil2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2018  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/cse_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline116"
-        app:layout_constraintEnd_toStartOf="@+id/guideline106"
-        app:layout_constraintStart_toStartOf="@+id/guideline108"
-        app:layout_constraintTop_toTopOf="@+id/guideline115" />
+                <TextView
+                    android:id="@+id/civil2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2017  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/it_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline118"
-        app:layout_constraintEnd_toStartOf="@+id/guideline107"
-        app:layout_constraintStart_toStartOf="@+id/guideline105"
-        app:layout_constraintTop_toTopOf="@+id/guideline117" />
+                <TextView
+                    android:id="@+id/civil2016"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2016  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:background="@drawable/common_que_bank_btn"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/guideline118"
-        app:layout_constraintEnd_toStartOf="@+id/guideline106"
-        app:layout_constraintStart_toStartOf="@+id/guideline108"
-        app:layout_constraintTop_toTopOf="@+id/guideline117" />
+                <TextView
+                    android:id="@+id/civil2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2015  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline104"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.0" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline105"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.14" />
+            <Button
+                android:id="@+id/showbtn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttoncurve"
+                android:text="Mechanical Engineering"
+                android:textColor="@color/white" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline106"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.86" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline107"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.46" />
+            <LinearLayout
+                android:id="@+id/btn2layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline108"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.54" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline110"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="1.0" />
+                <TextView
+                    android:id="@+id/mech2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2018  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline109"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.0"/>
+                <TextView
+                    android:id="@+id/mech2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2017  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline111"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.10"/>
+                <TextView
+                    android:id="@+id/mech2016"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2016  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline112"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.175"/>
+                <TextView
+                    android:id="@+id/mech2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2015  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline113"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.25"/>
+            </LinearLayout>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline114"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.43"/>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline115"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.49"/>
+            <!--            Button 3-->
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline116"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.67"/>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline117"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.73"/>
+            <Button
+                android:id="@+id/showbtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttoncurve"
+                android:text="Ele. and Electronics Engineering"
+                android:textColor="@color/white" />
+            <LinearLayout
+                android:id="@+id/btn3layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline118"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="0.91"/>
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline119"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_begin="20dp"
-        app:layout_constraintGuide_percent="1.0"/>
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/eee2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2018  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/eee2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2017  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/eee2016"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2016  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/eee2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2015  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+
+            <!--            Button4-->
+
+            <Button
+                android:id="@+id/showbtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttoncurve"
+                android:text="Computer Science Engineering"
+                android:textColor="@color/white" />
+            <LinearLayout
+                android:id="@+id/btn4layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/cse2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2018  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/cse2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2017  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/cse2016"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2016  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/cse2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2015  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/showbtn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttoncurve"
+                android:text="Common 1st year"
+                android:textColor="@color/white" />
+            <LinearLayout
+                android:id="@+id/btn5layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+
+                <TextView
+                    android:id="@+id/common2018"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2018  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/common2017"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2017  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/common2016"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2016  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/common2015"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:padding="20dp"
+                    android:text="2015  ->"
+                    android:textColor="@color/sky_blue"
+                    android:textFontWeight="700"
+                    android:textSize="25sp"
+                    android:visibility="visible"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,7 +1,6 @@
 apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.google.gms.google-services'
 
@@ -12,8 +11,8 @@ android {
         applicationId "com.abhishek.collegebuddy"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 4
-        versionName "1.1"
+        versionCode 5
+        versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
