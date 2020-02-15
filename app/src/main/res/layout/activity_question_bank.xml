@@ -394,10 +394,82 @@
 
             </LinearLayout>
 
+        <Button
+            android:id="@+id/showbtn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttoncurve"
+            android:text="Other Common Papers"
+            android:textColor="@color/white" />
+        <LinearLayout
+            android:id="@+id/btn6layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+
+            <TextView
+                android:id="@+id/ocp2018"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/bold"
+                android:padding="20dp"
+                android:text="2018  ->"
+                android:textColor="@color/sky_blue"
+                android:textFontWeight="700"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/ocp2017"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/bold"
+                android:padding="20dp"
+                android:text="2017  ->"
+                android:textColor="@color/sky_blue"
+                android:textFontWeight="700"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/ocp2016"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/bold"
+                android:padding="20dp"
+                android:text="2016  ->"
+                android:textColor="@color/sky_blue"
+                android:textFontWeight="700"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/ocp2015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:fontFamily="@font/bold"
+                android:padding="20dp"
+                android:text="2015  ->"
+                android:textColor="@color/sky_blue"
+                android:textFontWeight="700"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintStart_toStartOf="parent" />
+
 
         </LinearLayout>
 
-
+        </LinearLayout>
 
 
     </ScrollView>

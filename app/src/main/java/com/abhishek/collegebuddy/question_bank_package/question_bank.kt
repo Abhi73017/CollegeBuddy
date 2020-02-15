@@ -16,12 +16,9 @@ class question_bank : AppCompatActivity() {
         showbtn.setOnClickListener {
             if (btn1layout.isVisible){
                 btn1layout.visibility = View.GONE
-
             }
             else{
                 btn1layout.visibility = View.VISIBLE
-
-
             }
         }
 
@@ -32,7 +29,6 @@ class question_bank : AppCompatActivity() {
             }
             else{
                 btn2layout.visibility = View.VISIBLE
-
             }
         }
 
@@ -43,7 +39,6 @@ class question_bank : AppCompatActivity() {
             }
             else{
                 btn3layout.visibility = View.VISIBLE
-
             }
         }
 
@@ -54,7 +49,6 @@ class question_bank : AppCompatActivity() {
             }
             else{
                 btn4layout.visibility = View.VISIBLE
-
             }
         }
 
@@ -65,7 +59,6 @@ class question_bank : AppCompatActivity() {
             }
             else{
                 btn5layout.visibility = View.VISIBLE
-
             }
         }
     }
