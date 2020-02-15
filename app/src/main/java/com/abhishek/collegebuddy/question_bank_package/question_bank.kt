@@ -61,5 +61,15 @@ class question_bank : AppCompatActivity() {
                 btn5layout.visibility = View.VISIBLE
             }
         }
+
+        //      Button6
+        showbtn6.setOnClickListener {
+            if (btn6layout.isVisible){
+                btn6layout.visibility = View.GONE
+            }
+            else{
+                btn6layout.visibility = View.VISIBLE
+            }
+        }
     }
 }
