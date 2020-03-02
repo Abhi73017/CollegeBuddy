@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/paraImage"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/noimage" />
+
+        <TextView
+            android:id="@+id/paraTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:text="Its Just A dummy Title For Text View Thats it Nothing Fancy here  "
+            android:textAlignment="center"
+            android:fontFamily="monospace"
+            android:textFontWeight="700"
+            android:textColor="#F44336"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/paraText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:padding="2dp"
+            android:letterSpacing="0.1"
+            android:text="Its Just A dummy Paragraph For Text View Thats it Nothing Fancy here  "
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textFontWeight="700"
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</ScrollView>

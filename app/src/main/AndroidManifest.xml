@@ -18,7 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".question_bank_package.question_bank"></activity>
+        <activity android:name=".Article.ParagraphActivity"></activity>
+        <activity android:name=".Article.rcvArticle" />
+        <activity android:name=".question_bank_package.question_bank" />
         <activity android:name=".developers" />
         <activity android:name=".More_activities.about_us" />
         <activity android:name=".More_activities.disclaimer" />
@@ -86,8 +88,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".NewSyllabus.new_syllabus_cse"
             android:screenOrientation="portrait" />

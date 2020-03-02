@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.MaterialComponents.CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/mtrl_card_spacing"
+    android:layout_marginTop="@dimen/mtrl_card_spacing"
+    android:layout_marginRight="@dimen/mtrl_card_spacing"
+    android:minHeight="100dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <!--     <ImageView-->
+        <!--         android:id="@+id/ImagePost"-->
+        <!--         android:layout_width="match_parent"-->
+        <!--         android:layout_height="200sp"-->
+        <!--         android:scaleType="centerCrop"-->
+        <!--         android:src="@drawable/food" />-->
+
+        <!--     <TextView-->
+        <!--         android:id="@+id/TitleTextview"-->
+        <!--         android:layout_width="match_parent"-->
+        <!--         android:layout_height="wrap_content"-->
+        <!--         android:padding="2dp"-->
+        <!--         android:text="Its Just A dummy Title For Text View Thats it Nothing Fancy here  "-->
+        <!--         android:textAlignment="center"-->
+        <!--         android:fontFamily="serif-monospace"-->
+        <!--         android:textFontWeight="700"-->
+        <!--         android:textColor="#000000"-->
+        <!--         android:textSize="20sp" />-->
+
+
+        <ImageView
+            android:id="@+id/ImagePost"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/noimage" />
+
+        <TextView
+            android:id="@+id/TitleTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:text="Its Just A dummy Title For Text View Thats it Nothing Fancy here  "
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:layout_gravity="center"
+            android:textFontWeight="700"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
