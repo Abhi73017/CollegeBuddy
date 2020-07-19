@@ -6,6 +6,7 @@ College Buddy Android App
 ![image](https://github.com/Abhi73017/CollegeBuddy/blob/master/unnamed.png)
 ![image](https://github.com/Abhi73017/CollegeBuddy/blob/master/screen2.png)
 ![image](https://github.com/Abhi73017/CollegeBuddy/blob/master/screen3.png)
+![image](https://github.com/Abhi73017/CollegeBuddy/blob/master/screen4.png)
 
 
 ## TODO
